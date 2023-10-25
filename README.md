@@ -6,7 +6,7 @@ Clone or download the repository and `cd` into it:
 
     $ cd TabMEI_transcriber
 
-The file to be transcribed is placed in the `in` folder; the output file will be stored in the `out/` folder. The scripts takes as argument one positional argument (the name of the file to be transcribed, possibly preceded by 'in/'), and a set of optional arguments, which take their default values when not specified. In its minimal form (i.e., with all the options set to their default values), it is called with
+The file to be transcribed is placed in the `in/` folder; the output file will be stored in the `out/` folder. The scripts takes as argument one positional argument (the name of the file to be transcribed, possibly preceded by 'in/'), and a set of optional arguments, which take their default values when not specified. In its minimal form (i.e., with all the options set to their default values), it is called with
 
     $ python3 transcriber.py in/<filename>
 
