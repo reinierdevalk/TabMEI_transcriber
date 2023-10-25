@@ -91,6 +91,10 @@ if __name__ == "__main__":
 			 'inpath': os.path.join(scriptpath, 'in'), # full path to input file
 			 'outpath': os.path.join(scriptpath, 'out') # full path to output file
 			}
-	
+	if not os.path.exists(paths['outpath']):
+		os.makedirs(paths['outpath'])
+
 	if args.trans == 'd':
 		transcribe(infile, paths, args)
+	else:
+		print('To be implemented.')
