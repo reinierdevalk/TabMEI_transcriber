@@ -25,25 +25,29 @@ TODO
 
 import argparse
 import os
-from diplomat import transcribe
+from diplomat import transcribe_dipl
+from polyphonist import transcribe_poly
 
 parser = argparse.ArgumentParser(prog=		 'transcriber',
-								 description='Creates a transcription in CMN from a tablature MEI\
-								 			  file in the input folder (\'in/\'). Depending on the\
-								 			  value of -tr (--trans), this transcription is either\
-								 			  (1) a diplomatic transcription in notehead notation, or\
-								 			  (2) a polyphonic transcription output by a machine\
+								 description='Creates a transcription in CMN from all tablature MEI\
+								 			  files in the input folder (\'user/in/\'). Depending on the\
+								 			  value of -tr (--trans), these transcription are either\
+								 			  (1) diplomatic transcriptions in notehead notation, or\
+								 			  (2) polyphonic transcriptions output by a machine\
 								 			  learning model for voice separation trained on tablature.\
-								 			  Depending on the value of -tb (--tab), the transcription\
-								 			  is either placed above the tablature, or replaces it.',
-								 epilog=	 'Stores a new MEI file in the output folder (\'out/\').')
-parser.add_argument('file', 
-					help='the input file; can be preceded by the name of the input folder (\'in/\')')
+								 			  Depending on the value of -tb (--tab), the transcriptions\
+								 			  are either placed above the tablature, or replace it.',
+								 epilog=	 'Stores new MEI files in the output folder (\'user/out/\').')
+parser.add_argument('-f', '--file',
+					metavar='',
+					help='the input file, possibly preceded by the input folder name (\'user/in/\') --\
+						  to be provided only when a single file from the input folder is to be\
+						  transcribed')
 parser.add_argument('-tn', '--tuning', 
 					choices=['F', 'F-', 'G', 'G-', 'A', 'A-'], 
-					default='G',
 					metavar='', 
-					help='the tuning; options are [F, F-, G, G-, A, A-], default is G')
+					help='the tuning -- to be provided only when the tuning given in the input file\
+						  is to be overruled); options are [F, F-, G, G-, A, A-]')
 parser.add_argument('-k', '--key', 
 					choices=[str(i) for i in list(range(-5, 6, 1))], 
 					default='0', 
@@ -59,10 +63,9 @@ parser.add_argument('-m', '--mode',
 						  options are [0, 1], default is 0')
 parser.add_argument('-s', '--staff', 
 					choices=['s', 'd'], 
-					default='s',
+					default='d',
 					metavar='', 
-					help='the staff type: single or double;\
-						  options are [s, d], default is s')
+					help='the staff type: single or double; options are [s, d], default is d')
 parser.add_argument('-tb', '--tab', 
 					choices=['y', 'n'], 
 					default='y',
@@ -85,16 +88,26 @@ args = parser.parse_args()
 
 
 if __name__ == "__main__":
-	infile = os.path.split(args.file)[-1] # input file
 	scriptpath = os.getcwd() # full path to script
 	paths = {
-			 'inpath': os.path.join(scriptpath, 'in'), # full path to input file
-			 'outpath': os.path.join(scriptpath, 'out') # full path to output file
+			 'inpath': os.path.join(scriptpath, 'user/in/'), # full path to input file
+			 'outpath': os.path.join(scriptpath, 'user/out/') # full path to output file
 			}
 	if not os.path.exists(paths['outpath']):
 		os.makedirs(paths['outpath'])
 
-	if args.trans == 'd':
-		transcribe(infile, paths, args)
+	infiles = []
+	if args.file != None:
+		print(os.path.split(args.file)[-1])
+		infiles.append(os.path.split(args.file)[-1]) # input file (without user/in/)
 	else:
-		print('To be implemented.')
+		for item in os.listdir(paths['inpath']):
+			if args.trans == 'd' and (item.endswith('.xml') or item.endswith('.mei')):
+				infiles.append(item)
+			elif args.trans == 'p' and item.endswith('.tc'):
+				infiles.append(item)	
+
+	if args.trans == 'd':
+		transcribe_dipl(infiles, paths, args)
+	else:
+		transcribe_poly(infiles, paths, args)

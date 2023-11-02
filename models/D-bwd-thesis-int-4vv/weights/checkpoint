@@ -1,0 +1,2 @@
+model_checkpoint_path: "F:/research/data/models/D-bwd-thesis-int-4vv/weights/trained.ckpt"
+all_model_checkpoint_paths: "F:/research/data/models/D-bwd-thesis-int-4vv/weights/trained.ckpt"

@@ -34,6 +34,7 @@ import os.path
 import subprocess
 import xml.etree.ElementTree as ET
 from subprocess import Popen, PIPE, run
+from utils import call_java, cp
 
 notationtypes = {'FLT': 'tab.lute.french',
 				 'ILT': 'tab.lute.italian',
@@ -56,11 +57,10 @@ smufl_lute_durs = {1: 'luteDurationDoubleWhole',
 				   32: 'luteDuration16th',
 				   '.': 'augmentationDot'
 				  }
-cp_dirs = ['java/utils/lib/*',
-		   'java/utils/bin/']
-cp = (':' if os.name == 'posix' else ';').join(cp_dirs)
+
 java_path = 'tools.music.PitchKeyTools' # <package>.<package>.<file>
 verbose = False
+tuning_from_file = None
 
 
 def _handle_namespaces(path: str): # -> Tuple
@@ -140,15 +140,23 @@ def _handle_scoreDef(scoreDef: ET.Element, ns: dict, uri: str, args: argparse.Na
 		if not_type != notationtypes['GLT']:
 			tab_staffDef.set('lines', '5' if lines == '5' and args.type == 'FLT' else '6')
 			tab_staffDef.set('notationtype', notationtypes[args.type])
-		# Reset <tuning>	
-		tuning.clear()
-		for i, (pitch, octv) in enumerate(tunings[args.tuning]):
-			course = ET.SubElement(tuning, uri + 'course',
-								   n=str(i+1),
-								   pname=pitch[0],
-								   oct=str(octv),
-								   accid='' if len(pitch) == 1 else ('f' if pitch[1] == 'b' else 's')
-								  )
+		# Reset <tuning>
+		if args.tuning == None: # TODO fix nicer
+			for course in tuning:
+				if course.get('n') == '1':
+					global tuning_from_file
+					tuning_from_file = course.get('pname').upper()
+					break
+		else:
+			tuning.clear()
+			for i, (pitch, octv) in enumerate(tunings[args.tuning]):
+				course = ET.SubElement(tuning, uri + 'course',
+									   n=str(i+1),
+									   pname=pitch[0],
+									   oct=str(octv),
+									   accid='' if len(pitch) == 1 else ('f' if pitch[1] == 'b' else 's')
+									  )
+
 	# Remove
 	else:
 		staffGrp.remove(tab_staffDef)
@@ -225,7 +233,7 @@ def _handle_section(section: ET.Element, ns: dict, uri: str, args: argparse.Name
 	notation, there is also a middle staff. 
 	"""
 
-	grids_dict = _call_java(['java', '-cp', cp, java_path, args.key, args.mode])
+	grids_dict = call_java(['java', '-cp', cp, java_path, args.key, args.mode], True)
 	mpcGrid = grids_dict['mpcGrid'] # list
 	mpcGridStr = str(mpcGrid)
 	altGrid = grids_dict['altGrid'] # list
@@ -296,7 +304,7 @@ def _handle_section(section: ET.Element, ns: dict, uri: str, args: argparse.Name
 					if element != flag:
 						midi_pitch = _get_midi_pitch(int(element.get('tab.course')), 
 													 int(element.get('tab.fret')), 
-													 args.tuning)
+													 args.tuning if args.tuning is not None else tuning_from_file)
 						midi_pitch_class = midi_pitch % 12
 						# a. The note is in key and there are no accidentals to correct  
 						if midi_pitch_class in mpcGrid and not any(accidsInEffect):
@@ -307,7 +315,7 @@ def _handle_section(section: ET.Element, ns: dict, uri: str, args: argparse.Name
 						else:
 							cmd = ['java', '-cp', cp, java_path, str(midi_pitch), args.key, 
 					  			   mpcGridStr, altGridStr, pcGridStr, str(accidsInEffect)]
-							spell_dict = _call_java(cmd)
+							spell_dict = call_java(cmd, True)
 							pname = spell_dict['pname'] # str
 							accid = spell_dict['accid'] # str
 							accidsInEffect = spell_dict['accidsInEffect'] # list
@@ -354,23 +362,6 @@ def _handle_section(section: ET.Element, ns: dict, uri: str, args: argparse.Name
 						print(ee.tag, ee.attrib)
 						for eee in ee:
 							print(eee.tag, eee.attrib)
-
-
-def _call_java(cmd: list, use_Popen: bool=False): # -> dict:
-	# For debugging
-	if use_Popen:
-		process = Popen(cmd, stdout=PIPE, stderr=PIPE, shell=False)
-		output, errors = process.communicate()
-		outp = output.decode('utf-8') # str
-		print(errors)
-		print(outp)
-	# For normal use
-	else:
-		process = run(cmd, capture_output=True, shell=False)
-		outp = process.stdout # bytes
-#	print(outp)
- 
-	return json.loads(outp)
 
 
 def _make_dir(uri: str, xml_id: str, dur: int, dots: int): # -> 'ET.Element'
@@ -427,27 +418,29 @@ def _create_element(name: str, parent: ET.Element=None, atts: list=[]): # -> ET.
 	return o
 
 
-def transcribe(infile: str, arg_paths: dict, args: argparse.Namespace): # -> None
+def transcribe_dipl(infiles: list, arg_paths: dict, args: argparse.Namespace): # -> None
 	inpath = arg_paths['inpath']
 	outpath = arg_paths['outpath']
-	filename, ext = os.path.splitext(os.path.basename(infile)) # input file name, extension
-	outfile = filename + '-dipl' + ext # output file
+	
+	for infile in infiles:
+		filename, ext = os.path.splitext(os.path.basename(infile)) # input file name, extension
+		outfile = filename + '-dipl' + ext # output file
 
-	# Handle namespaces
-	ns, uri = _handle_namespaces(os.path.join(inpath, infile))
+		# Handle namespaces
+		ns, uri = _handle_namespaces(os.path.join(inpath, infile))
 
-	# Get the main MEI elements
-	tree, meiHead, music = _parse_tree(os.path.join(inpath, infile), ns)
+		# Get the main MEI elements
+		tree, meiHead, music = _parse_tree(os.path.join(inpath, infile), ns)
 
-	# Handle <scoreDef>
-	score = music.findall('.//' + uri + 'score')[0]
-	scoreDef = score.find('mei:scoreDef', ns)
-	_handle_scoreDef(scoreDef, ns, uri, args)
+		# Handle <scoreDef>
+		score = music.findall('.//' + uri + 'score')[0]
+		scoreDef = score.find('mei:scoreDef', ns)
+		_handle_scoreDef(scoreDef, ns, uri, args)
 
-	# Handle <section>
-	section = score.find('mei:section', ns)
-	_handle_section(section, ns, uri, args)
+		# Handle <section>
+		section = score.find('mei:section', ns)
+		_handle_section(section, ns, uri, args)
 
-	# Fix indentation and write to file
-	ET.indent(tree, space="\t", level=0)
-	tree.write(os.path.join(outpath, outfile))	
+		# Fix indentation and write to file
+		ET.indent(tree, space="\t", level=0)
+		tree.write(os.path.join(outpath, outfile))	

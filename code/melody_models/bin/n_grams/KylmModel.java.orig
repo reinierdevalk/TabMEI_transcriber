@@ -1,0 +1,272 @@
+package n_grams;
+
+import java.io.File;
+import java.io.IOException;
+import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+import kylm.model.ngram.NgramLM;
+import kylm.model.ngram.reader.SerializedNgramReader;
+import kylm.model.ngram.smoother.KNSmoother;
+import kylm.model.ngram.smoother.NgramSmoother;
+import kylm.model.ngram.writer.SerializedNgramWriter;
+import models.ISequenceModelS;
+
+/**
+ * Simple Language Model with Laplace Smoothing and Simple Back-off
+ * @author tweyde
+ */
+public class KylmModel implements ISequenceModelS, Serializable {
+	
+	public enum Type{LONG,SHORT,MIX,PROD}; 
+	protected int N = 3;
+	protected Type lsType = Type.MIX;
+	protected NgramLM LTM;
+	protected NgramLM STM;
+	
+	private int sliceIndex; // 0 = pitch; 1 = duration; 2 = relative pitch; 3 = ioi
+	
+	public static final int PITCH = 0; // rdv
+	public static final int DUR = 1; // rdv
+	public static final int REL_PITCH = 2; // rdv
+	public static final int IOI = 3; // rdv
+	
+	
+	public void setSliceIndex(int arg) { // rdv
+		sliceIndex = arg;
+	}
+
+
+	public static String getSliceIndexString(int arg) {
+		String s = "";
+		if (arg == PITCH) {
+			s = "p";
+		}
+		else if (arg == DUR) {
+			s = "d";
+		}
+		else if (arg == REL_PITCH) {
+			s = "rp";
+		}
+		else if (arg == IOI) {
+			s = "ioi";
+		}
+		return s;
+	}
+
+
+	/**
+	 * Create an new 
+	 * @param argUseSTM
+	 */
+	private KylmModel(Type argUseSTM){
+		this(argUseSTM,3,0); //rdv
+	}
+	
+	public KylmModel(Type argUseSTM, int argN, int feature){ // rdv
+		lsType = argUseSTM;
+		N = argN;
+		NgramSmoother smoother = new KNSmoother();//new MLSmoother() // MKNSmoother();
+		smoother.setSmoothUnigrams(true);
+		LTM = new kylm.model.ngram.NgramLM(N,smoother);
+		setSliceIndex(feature);
+
+		resetShortTermModel();
+	}
+	
+	// serial#
+	private static final long serialVersionUID = 2536367845478314674L;
+
+	public double crossEntropy(String seq[]){
+		return LTM.getSentenceEntropy(seq);
+	}
+
+	
+	
+	
+	List<String> sliceList(List<List<String>> list, int num){
+		List<String> slice = new ArrayList<String>(list.size());
+		for (List<String> vec : list) {
+			slice.add(vec.get(num));
+		}
+		return slice;
+	}
+	
+
+	List<String []> voiceContexts = new ArrayList<String[]>(); 
+	/**
+	 * This method needs to be called on the notes in their temporal order for the short
+	 * term model to work.
+	 */
+	@Override
+	public double modelProbability(List<List<String>> list, int voiceNum) {		
+
+		if(list.size()==0)
+			return 0;
+		// slice list
+		List<String> relPitchSlice = sliceList(list, sliceIndex); // rdv was 2
+		String relPitchArray[] = relPitchSlice.toArray( new String[relPitchSlice.size()] );
+
+		double probLT = 0, probST = 0;
+		if(lsType != Type.SHORT) {
+			// calculate LT probability
+    		float[] entropy = LTM.getWordEntropies(relPitchArray);
+    		probLT = Math.exp(entropy[entropy.length -2]);
+//    		System.out.println(probLT);
+		} 
+		if(lsType != Type.LONG) {
+//			if (relPitchArray.length == 1) { // rdv
+//				probST = 1/50.0;
+//			}
+//			else {
+				// extract context for short 
+				String[] context = Arrays.copyOfRange(relPitchArray,0,relPitchArray.length-1);
+				while(voiceContexts.size() <= voiceNum)
+					voiceContexts.add(new String[]{});
+				voiceContexts.set(voiceNum, context);
+				NgramSmoother smoother = new KNSmoother();//new MLSmoother() // MKNSmoother();
+				smoother.setSmoothUnigrams(true);
+				NgramLM tmpSTM = new NgramLM(N,smoother);
+				try {
+					tmpSTM.trainModel(voiceContexts);
+				} catch (IOException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+	    		float[] entropy = tmpSTM.getWordEntropies(relPitchArray);
+	    		probST = Math.exp(entropy[entropy.length -2]);
+//			}
+		}
+		if (lsType == Type.LONG ) 
+			return probLT;
+		else if (lsType == Type.SHORT )
+			return probST;
+		else if (lsType == Type.PROD )
+			return probLT * probST;
+		else // (lsType == Type.MIX)
+			return (probLT + probST)/2;
+	}
+
+	KylmModel tempModel;
+
+	static List<List<List<List<String>>>> trainingPieces = new ArrayList<List<List<List<String>>>>();
+	
+	@Override
+	public void trainModel(List<List<List<String>>> melodyList) {
+		List<String[]> pieces = new ArrayList<String[]>(); 
+		for (List<List<String>> piece : melodyList) {
+			pieces.add(sliceList(piece, sliceIndex).toArray(new String[piece.size()])); // rdv was 2
+		}
+		try {
+			LTM.trainModel(pieces);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+
+	@Override
+	public void saveModel(File f) {
+//		ArpaNgramWriter aWrite = new ArpaNgramWriter();
+		SerializedNgramWriter aWrite = new SerializedNgramWriter();
+		try {
+			f.getParentFile().mkdirs(); // added RdV
+			aWrite.write(LTM, f.getPath());
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} 
+	} 
+
+
+	@Override
+	public void loadModel(File f) {
+//		ArpaNgramReader aRead = new ArpaNgramReader();
+		SerializedNgramReader aRead = new SerializedNgramReader(); 
+		try {
+			LTM = aRead.read(f.getPath());
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+	public void initSTmodel() {
+		STM = new kylm.model.ngram.NgramLM(N);
+	}
+
+	@Override
+	public void resetShortTermModel() {
+//		STM = new kylm.model.ngram.NgramLM(N,new MKNSmoother());		
+	}
+	
+	public static void main(String[] args) {
+		String[] trainSeq = new String[]{"1.0","1.0","1.0","1.0","2.0","3.0","2.0","1.0","4.0","3.0","1.0","3.0","4.0"};
+		// create the needed data format
+		List<List<List<String>>> pieces = new ArrayList<List<List<String>>>();
+		List<List<String>> piece = createMelodyVectors(trainSeq);
+		pieces.add(piece);
+		// new model 
+		KylmModel slm = new KylmModel(Type.PROD,4,0); // rdv
+		slm.trainModel(pieces);
+		slm.LTM.expandUnknowns();
+		//List<String[]> trainData = new ArrayList<String[]>();
+		//trainData.add(seq);
+//		try {
+//			slm.LTM.trainModel(trainData);
+//		} catch (IOException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
+		String[] testSeq = new String[]{"1.0","1.0","0.0"};
+		float[] entropies = slm.LTM.getWordEntropies(testSeq);
+		for (int i = 0; i < entropies.length; i++) {
+			System.out.print(entropies[i]);
+			System.out.print(' ');
+		}
+		System.out.println();
+		List<List<String>> testPiece = createMelodyVectors(trainSeq);
+		System.out.println(slm.modelProbability(testPiece, 1));
+	}
+
+	public static List<List<String>> createMelodyVectors(String[] seq) {
+		List<List<String>> piece = new ArrayList<List<String>>();
+		for (int i = 0; i < seq.length; i++) {
+			List<String> features = new ArrayList<String>();
+			features.add("");features.add("");
+			features.add(seq[i]);
+			piece.add(features);
+		}
+		return piece;
+	}
+	
+//	public static void main(String[] args) {
+//		KylmModel slm = new KylmModel();
+//		File f = new File("/Users/tweyde/Documents/workspace2/melody-model/src/data/Melody3v.xml"); 
+//		List<List<List<List<Double>>>> pieces = AuxiliaryTool.getStoredObject(new ArrayList<List<List<List<Double>>>>(), f);
+//		slm.initSTmodel();
+//		List<Double> voiceProbs = new ArrayList<Double>(5000);
+//		for (List<List<List<Double>>> piece : pieces) {
+//			for (List<List<Double>> voice : piece) {
+//				List<List<Double>> newVoice = new ArrayList<List<Double>>(voice.size());
+//				slm.initSTmodel();
+//				for (List<Double> note : voice) {
+//					newVoice.add(note);
+//					voiceProbs.add(slm.modelProbability(newVoice, 0));					
+//				}
+//			}
+//		}
+//		double entropy = 0;
+//		for (Double p : voiceProbs) {
+//			entropy += -Math.log(p);
+//		}
+//		entropy/=voiceProbs.size();
+//		System.out.println("entropy: "+entropy);		
+//	}
+
+
+
+}

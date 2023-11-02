@@ -1,0 +1,61 @@
+{AUTHOR: }
+{TITLE: }
+{SOURCE: }
+
+{TABSYMBOLSET: French}
+{TUNING: G}
+{METER_INFO: 2/2 (1-23)}
+{DIMINUTION: 1}
+
+MC\.>.mi.f3.a2.>.sm.f3.d2.>.f3.d2.>.|.
+mi.d3.a1.>.a3.c1.>.|.
+mi.d3.c1.>.c3.b1.>.|.
+mi.c5.a3.c1.>.sm.c5.a4.>.c5.a4.>.|.
+mi.a5.c4.>.c6.a3.>.|.
+mi.a5.a3.>.e6.d4.>.|.
+mi.c6.e4.>.sm.c2.f1.>.sm.f1.>.|.
+sm.e1.>.a2.>.d3.c1.>.d2.>.|.
+sm.c2.a1.>.f3.d2.>.c6.e4.e3.c2.>.c6.>.|.
+sm.c5.f3.d2.>.f4.>.e4.>.f5.e4.>.|.
+sm.e5.c4.>.c5.a4.>.mi.g6.e5.>.|.
+mi.c5.>.sm.c6.e4.e3.c2.>.c6.e3.c2.>.|.
+/
+sm.c5.f3.d2.>.f4.>.e4.d2.>.f5.e4.d3.>.|.
+sm.a5.c4.d3.c2.>.c5.a4.a3.a2.>.mi.c6.e5.e4.e3.>.||.
+mi.c5.a3.a2.>.sm.f3.d2.>.f3.d2.>.|.
+mi.d3.a1.>.d3.c1.>.|.
+mi.d3.c1.>.c3.b1.>.|.
+sb.a3.c1.>.
+{mi.a3.c1.>.|:.}
+|.
+sb.c5.b4.a3.a2.>.|.
+mi.>.sb.a5.c4.d3.c2.>.mi.a5.c4.d3.c2.>.|.
+mi.a5.c4.d3.c2.>.sm.a5.d3.c2.>.c4.>.|.
+sm.c5.a4.a3.a2.>.c6.e5.e4.d3.>.mi.d6.c5.c4.a2.>.|.
+mi.c6.e5.e4.d3.>.sm.c6.e5.c2.f1.>.c6.e5.c2.f1.>.|.
+mi.e5.c4.c2.e1.>.e4.d3.c2.c1.>.|.
+mi.a4.a3.a2.c1.>.e5.c3.c2.b1.>.|.
+mi.c6.d3.c2.c1.>.sm.e4.d3.c2.f1.>.e4.d3.c2.f1.>.|.
+mi.c4.f3.f2.e1.>.e4.d3.c2.c1.>.|.
+/
+mi.c5.f3.d2.c1.>.e5.c3.c2.b1.>.|.
+mi.c6.e3.c2.c1.>.sm.>.c5.e4.f3.d2.>.|.
+sm.c5.e4.f3.d2.>.c6.e4.e3.c2.>.mi.c5.f3.d2.>.|.
+sm.c5.e4.f3.d2.>.c6.e4.e3.c2.>.mi.c5.e4.f3.d2.>.|.
+sm.c5.e4.f3.d2.>.c6.e4.e3.c2.>.mi.c5.e4.f3.d2.>.|.
+mi.a6.c4.c3.a2.>.f5.e4.d3.d2.>.|.
+sm.a5.c4.d3.c2.>.c5.a4.a3.a2.>.c6.e5.a3.a2.>.c6.e5.e4.e3.>.|.
+mi.c5.b4.a3.a2.>.sm.>.c5.e4.f3.d2.>.|.
+sm.c5.e4.f3.d2.>.c6.e4.e3.c2.>.mi.c5.e4.f3.d2.>.|.
+sm.c5.e4.f3.d2.>.c6.e4.e3.c2.>.mi.c5.e4.f3.d2.>.|.
+sm.c5.e4.f3.d2.>.c6.e4.e3.c2.>.mi.c5.e4.f3.d2.>.|.
+mi.a6.c4.c3.a2.>.f5.e4.d3.d2.>.|.
+/
+sm.a5.c4.d3.c2.>.c5.a4.a3.a2.>.c6.e5.a3.a2.>.c6.e5.e4.e3.>.|.
+mi.c5.b4.a3.a2.>.sm.a6.c4.c3.a2.>.f5.e4.d3.d2.>.|.
+sm.a5.c4.d3.c2.>.c5.a4.a3.a2.>.c6.e5.a3.a2.>.c6.e5.e4.e3.>.|.
+sm.c5.b4.a2.>.c5.b4.a3.>.a6.c4.b3.>.a6.c4.b3.>.|.
+br.c5.b4.a3.a2.>.|.
+:|.
+|.
+//

@@ -1,0 +1,31 @@
+D A T A S E T
+thesis-int			thesis-int-4vv
+dataset				ochsenkun-1558_5-absolon_fili
+				ochsenkun-1558_5-in_exitu
+				ochsenkun-1558_5-qui_habitat
+				rotta-1546_15-bramo_morir
+				phalese-1547_7-tant_que-4vv
+				ochsenkun-1558_5-herr_gott
+				abondante-1548_1-mais_mamignone
+				phalese-1563_12-las_on
+				barbetta-1582_1-il_nest
+data examples			8892
+largest chord size		4
+highest number of voices	4
+
+M O D E L  P A R A M E T E R S
+model				N
+feature vector			PhD, D
+processing mode			bwd
+single-note unisons		true
+voice entry estimation		false
+activation function		sgm
+regularisation parameter	0.001
+hidden layer factor		1.0
+mini batch			-1.0
+validation percentage		0
+decision context size		1
+metacycles			40
+cycles				10
+learning rate			1.0
+deviation threshold		0.05

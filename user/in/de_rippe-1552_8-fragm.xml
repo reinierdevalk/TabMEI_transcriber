@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href='mei-cmn.rng' type='application/xml' schematypens='http://relaxng.org/ns/structure/1.0'?>
+<mei xmlns='http://www.music-encoding.org/ns/mei' meiversion='4.0.0'>
+    <meiHead>
+        <fileDesc>
+            <titleStmt>
+                <title></title>
+            </titleStmt>
+        </fileDesc>
+        <workDesc>
+            <work>
+            </work>
+        </workDesc>    
+    </meiHead>
+    <music>
+       <body>
+            <mdiv>
+                <score>
+                    <scoreDef>
+                        <staffGrp>
+                            <staffDef n='1' lines='5' notationtype='tab.lute.french' tab.dur.sym.ratio='1'>
+                                <!--
+                                <tuning tuning.standard='lute.renaissance.6'/>
+                                -->
+                                <tuning>
+                                    <course n="1" pname="g" oct="4" />
+                                    <course n="2" pname="d" oct="4" />
+                                    <course n="3" pname="a" oct="3" />
+                                    <course n="4" pname="f" oct="3" />
+                                    <course n="5" pname="c" oct="3" />
+                                    <course n="6" pname="g" oct="2" />
+                                </tuning>
+                            </staffDef>
+                        </staffGrp>
+                    </scoreDef>
+                    <section n='1'>
+                        <measure n='1'>
+                            <staff n='1'>
+                                <layer n='1'>
+
+<tabGrp dur='2'>
+    <tabDurSym />
+    <note tab.course='1' tab.fret='0' />
+    <note tab.course='2' tab.fret='0' />
+    <note tab.course='3' tab.fret='1' />
+    <note tab.course='4' tab.fret='2' />
+    <note tab.course='6' tab.fret='0' />
+</tabGrp>
+
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='2'>
+                            <staff n='1'>
+                                <layer n='1'>
+
+<tabGrp dur='4'>
+    <tabDurSym />
+    <note tab.course='1' tab.fret='0' />
+    <note tab.course='2' tab.fret='0' />
+    <note tab.course='3' tab.fret='1' />
+    <note tab.course='6' tab.fret='0' />
+</tabGrp>
+<tabGrp dur='8'>
+    <tabDurSym />
+    <note tab.course='4' tab.fret='2' />
+</tabGrp>
+<tabGrp dur='8'>
+    <note tab.course='2' tab.fret='3' />
+</tabGrp>
+
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='3'>
+                            <staff n='1'>
+                                <layer n='1'>
+
+<tabGrp dur='4'>
+    <tabDurSym />
+    <note tab.course='2' tab.fret='2' />
+    <note tab.course='3' tab.fret='3' />
+    <note tab.course='5' tab.fret='0' />
+</tabGrp>
+<tabGrp dur='4'>
+    <note tab.course='6' tab.fret='2' />
+</tabGrp>
+
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n='4'>
+                            <staff n='1'>
+                                <layer n='1'>
+
+<tabGrp dur='4' >
+    <tabDurSym />
+    <note tab.course='2' tab.fret='0' />
+    <note tab.course='3' tab.fret='1' />
+    <note tab.course='4' tab.fret='0' />
+    <note tab.course='6' tab.fret='3' />
+</tabGrp>
+<tabGrp dur='8'>
+    <tabDurSym />
+    <note tab.course='1' tab.fret='0' />
+</tabGrp>
+<tabGrp dur='8'>
+    <note tab.course='6' tab.fret='2' />
+</tabGrp>
+
+                                </layer>
+                            </staff>
+                        </measure>
+                    </section>
+                </score>
+            </mdiv>
+        </body>
+    </music>
+</mei>
