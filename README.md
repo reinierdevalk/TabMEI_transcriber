@@ -28,7 +28,7 @@ or
 
 ## Example
 ### Diplomatic transcription
-With the following command, a single input file is transcribed diplomatically (default behaviour) onto a single staff (`-s s`), with a B flat major key signature, i.e., two flats (`-k -2`). This staff is placed above the tablature 'staff', which is kept (default behaviour). The tablature is shown as Italian lute tablature (`-tp ILT`), and the A tuning is assumed for the input file (`-tn A`).
+With the following command, a single input file (`-f ...`) is transcribed diplomatically (default behaviour) onto a single staff (`-s s`), with a B flat major key signature, i.e., two flats (`-k -2`). This staff is placed above the tablature 'staff', which is kept (default behaviour). The tablature is shown as Italian lute tablature (`-tp ILT`), and the A tuning is assumed for the input file (`-tn A`).
 
     $ python3 transcriber.py -f user/in/<filename>.xml -s s -k -2 -tp ILT -tn A
 
