@@ -29,10 +29,15 @@ def transcribe_poly(infiles: str, arg_paths: dict, args: argparse.Namespace): # 
 	# Transcribe all .tbp files in infiles
 	model_ID = 'N-bwd-thesis-int-4vv'
 	args_dict = vars(args)
-	trans_params = '-k=' + args.key + '|' + '-m=' + args.mode
-	print(trans_params)
-	print(infiles)  
+	trans_params = '-k=' + args.key + '|' +\
+				   '-m=' + args.mode + '|' +\
+				   '-s=' + args.staff + '|' +\
+				   '-tb=' + args.tab + '|' +\
+				   '-tp=' + args.type
+#	print(trans_params)
+	for f in infiles:
+		print(f)
 
 	cmd = ['java', '-cp', cp, 'ui.UI', model_ID, '.', 'false', '', 
 		   infiles[0] if len(infiles) == 1 else '', trans_params]
-	call_java(cmd, False)
+	call_java(cmd, False, use_Popen=True)

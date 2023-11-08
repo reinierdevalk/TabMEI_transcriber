@@ -14,7 +14,9 @@ cp_dirs = ['code/formats-representations/lib/*',
 		   'code/utils/lib/*',
 		   'code/utils/bin/',
 		   'code/voice_separation/lib/*',
-		   'code/voice_separation/bin/'
+		   'code/voice_separation/bin/',
+		   'code/tabmapper/lib/*',
+		   'code/tabmapper/bin/'
 		  ]
 cp = (':' if os.name == 'posix' else ';').join(cp_dirs)
 

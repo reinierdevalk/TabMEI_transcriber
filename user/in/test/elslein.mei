@@ -1,0 +1,634 @@
+<?xml version="1.0" standalone="no"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
+    <meiHead>
+        <fileDesc>
+            <titleStmt>
+                <title>Elslein liebes Elslein.</title>
+                <composer>Judenkünig 1523: f.22v</composer>
+            </titleStmt>
+            <pubStmt />
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application isodate="2023-06-27" version="1.4.7">
+                    <name>luteconv</name>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <workList>
+            <work>
+                <title>Elslein liebes Elslein.</title>
+                <composer>Judenkünig 1523: f.22v</composer>
+            </work>
+        </workList>
+    </meiHead>
+    <music>
+        <body>
+            <mdiv n="1">
+                <score>
+                    <scoreDef>
+                        <staffGrp>
+                            <!--
+                            <staffDef n="1" lines="6" notationtype="tab.lute.french">
+                            -->
+                            <staffDef n="1" lines="3" lines.visible="false" notationtype="tab.lute.german" notationsubtype="judenkunig_1523" valign="bottom" >
+                                <tuning>
+                                    <course n="1" pname="g" oct="4" />
+                                    <course n="2" pname="d" oct="4" />
+                                    <course n="3" pname="a" oct="3" />
+                                    <course n="4" pname="f" oct="3" />
+                                    <course n="5" pname="c" oct="3" />
+                                    <course n="6" pname="g" oct="2" />
+                                </tuning>
+                                <!--
+                                <meterSig count='3' unit='4' glyph.auth='smufl' glyph.num='#xE915'/>
+                                <meterSig count='3' unit='4' form='num'/>
+                                <mensur glyph.auth="smufl" glyph.name="mensuralProlation6" glyph.num="U+E915" tempus="3" prolatio="2"/>
+                                -->
+                                <mensur sign="C" tempus="3" prolatio="2"/>
+                                <mensur glyph.auth="smufl" glyph.name="mensuralProportion3" glyph.num="U+E928" tempus="3" prolatio="2"/>
+                            </staffDef>
+                        </staffGrp>
+                    </scoreDef>
+                    <section n="1">
+                        <measure n="1">
+                            <staff n="1">
+                                <layer n="1">
+                                    <!-- added rdv --> 
+                                    <tabGrp xml:id="" dur="4">
+                                        <tabDurSym xml:id="" loc="4"/>
+                                    </tabGrp>
+                                    <!-- added rdv -->
+                                    <tabGrp xml:id="" dur="4">
+                                        <tabDurSym xml:id="" loc="4"/>
+                                    </tabGrp>
+                                    <tabGrp dur="4">
+                                        <tabDurSym loc="4"/>
+                                        <note tab.course="1" tab.fret="0" loc="2" />
+                                        <note tab.course="4" tab.fret="2" loc="0" />
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="2">
+                            <staff n="1">
+                                <layer n="1">
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="1" tab.fret="0" />
+                                        <note tab.course="3" tab.fret="1" />
+                                        <note tab.course="4" tab.fret="2" />
+                                    </tabGrp>
+                                    <tabGrp dur="16">
+                                        <tabDurSym loc="4" />
+                                        <note tab.course="1" tab.fret="0" />
+                                    </tabGrp>
+                                    <tabGrp dur="16" >
+                                        <tabDurSym loc="4" />
+                                        <note tab.course="2" tab.fret="3" xml:id="id0" />
+                                    </tabGrp>
+                                    <tabGrp dur="16">
+                                        <tabDurSym loc="4" />
+                                        <note tab.course="1" tab.fret="0" />
+                                    </tabGrp>
+                                    <tabGrp dur="16">
+                                        <tabDurSym loc="4" />
+                                        <note tab.course="1" tab.fret="2" xml:id="id1" />
+                                    </tabGrp>
+                                    <tabGrp dur="8">
+                                        <tabDurSym />
+                                        <note tab.course="1" tab.fret="3" />
+                                        <note tab.course="3" tab.fret="1" />
+                                        <note tab.course="4" tab.fret="2" />
+                                    </tabGrp>
+                                    <tabGrp dur="8">
+                                        <tabDurSym loc="4" />
+                                        <note tab.course="1" tab.fret="0" xml:id="id2" />
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                            <fing playingHand="right" playingFinger="1" startid="#id0" />
+                            <fing playingHand="right" playingFinger="1" startid="#id1" />
+                            <fing playingHand="right" playingFinger="1" startid="#id2" />
+                        </measure>
+                        <measure n="3">
+                            <staff n="1">
+                                <layer n="1">
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="1" tab.fret="2" />
+                                        <note tab.course="3" tab.fret="3" />
+                                        <note tab.course="4" tab.fret="0" />
+                                    </tabGrp>
+                                    <tabGrp dur="16">
+                                        <tabDurSym />
+                                        <note tab.course="3" tab.fret="3" />
+                                    </tabGrp>
+                                    <tabGrp dur="16">
+                                        <tabDurSym />
+                                        <note tab.course="3" tab.fret="2" xml:id="id3" />
+                                    </tabGrp>
+                                    <tabGrp dur="16">
+                                        <tabDurSym />
+                                        <note tab.course="3" tab.fret="3" />
+                                    </tabGrp>
+                                    <tabGrp dur="16">
+                                        <tabDurSym />
+                                        <note tab.course="2" tab.fret="0" xml:id="id4" />
+                                    </tabGrp>
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="1" tab.fret="0" />
+                                        <note tab.course="2" tab.fret="2" />
+                                        <note tab.course="3" tab.fret="3" />
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                            <fing playingHand="right" playingFinger="1" startid="#id3" />
+                            <fing playingHand="right" playingFinger="1" startid="#id4" />
+                        </measure>
+                        <measure n="4">
+                            <staff n="1">
+                                <layer n="1">
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="1" tab.fret="2" />
+                                        <note tab.course="2" tab.fret="3" />
+                                        <note tab.course="4" tab.fret="0" />
+                                    </tabGrp>
+                                    <tabGrp dur="8">
+                                        <tabDurSym loc="4" />
+                                        <note tab.course="1" tab.fret="2" />
+                                        <note tab.course="2" tab.fret="0" />
+                                    </tabGrp>
+                                    <tabGrp dur="8">
+                                        <tabDurSym loc="4" />
+                                        <note tab.course="1" tab.fret="4" xml:id="id5" />
+                                    </tabGrp>
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="1" tab.fret="5" />
+                                        <note tab.course="2" tab.fret="2" />
+                                        <note tab.course="3" tab.fret="0" />
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                            <fing playingHand="right" playingFinger="1" startid="#id5" />
+                        </measure>
+ 
+                        <sb/>
+
+                        <measure n="5">
+                            <staff n="1">
+                                <layer n="1">
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="1" tab.fret="7" />
+                                        <note tab.course="2" tab.fret="0" />
+                                        <note tab.course="4" tab.fret="5" />
+                                    </tabGrp>
+                                    <tabGrp dur="4">
+                                        <tabDurSym loc="4"/>
+                                        <note tab.course="5" tab.fret="7" />
+                                    </tabGrp>
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="1" tab.fret="7" />
+                                        <note tab.course="2" tab.fret="0" />
+                                        <note tab.course="4" tab.fret="5" />
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="6">
+                            <staff n="1">
+                                <layer n="1">
+                                    <tabGrp dur="8">
+                                        <tabDurSym />
+                                        <note tab.course="1" tab.fret="5" />
+                                        <note tab.course="3" tab.fret="0" />
+                                        <note tab.course="4" tab.fret="0" />
+                                    </tabGrp>
+                                    <tabGrp dur="8">
+                                        <tabDurSym loc="4" />
+                                        <note tab.course="4" tab.fret="2" xml:id="id6" />
+                                    </tabGrp>
+                                    <tabGrp dur="8">
+                                        <tabDurSym loc="4" />
+                                        <note tab.course="3" tab.fret="0" />
+                                    </tabGrp>
+                                    <tabGrp dur="8">
+                                        <tabDurSym loc="4" />
+                                        <note tab.course="3" tab.fret="2" xml:id="id7" />
+                                    </tabGrp>
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="1" tab.fret="2" />
+                                        <note tab.course="3" tab.fret="3" />
+                                        <note tab.course="4" tab.fret="0" />
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                            <fing playingHand="right" playingFinger="1" startid="#id6" />
+                            <fing playingHand="right" playingFinger="1" startid="#id7" />
+                        </measure>
+                        <measure n="7">
+                            <staff n="1">
+                                <layer n="1">
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="1" tab.fret="3" />
+                                        <note tab.course="3" tab.fret="1" />
+                                        <note tab.course="4" tab.fret="2" />
+                                    </tabGrp>
+                                    <tabGrp dur="8">
+                                        <tabDurSym />
+                                        <note tab.course="1" tab.fret="0" />
+                                        <note tab.course="3" tab.fret="3" />
+                                        <note tab.course="5" tab.fret="0" />
+                                    </tabGrp>
+                                    <tabGrp dur="8">
+                                        <tabDurSym loc="4" />
+                                        <note tab.course="2" tab.fret="3" />
+                                    </tabGrp>
+                                    <tabGrp dur="8">
+                                        <tabDurSym loc="4" />
+                                        <note tab.course="2" tab.fret="0" />
+                                    </tabGrp>
+                                    <tabGrp dur="8">
+                                        <tabDurSym loc="4" />
+                                        <note tab.course="2" tab.fret="2" />
+                                    </tabGrp>
+                                    <tabGrp dur="2">
+                                        <tabDurSym />
+                                        <note tab.course="2" tab.fret="3" />
+                                        <note tab.course="3" tab.fret="0" />
+                                        <note tab.course="5" tab.fret="2" />
+                                    </tabGrp>
+                                    <tabGrp dur="4">
+                                        <tabDurSym loc="4" />
+                                        <note tab.course="4" tab.fret="0" />
+                                        <note tab.course="5" tab.fret="2" />
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="8">
+                            <staff n="1">
+                                <layer n="1">
+                                    <tabGrp dur="4">
+                                        <tabDurSym loc="4" />
+                                        <note tab.course="3" tab.fret="0" />
+                                        <note tab.course="4" tab.fret="0" />
+                                    </tabGrp>
+                                    <tabGrp dur="4">
+                                        <tabDurSym loc="4" />
+                                        <note tab.course="3" tab.fret="0" />
+                                    </tabGrp>
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="2" tab.fret="3" />
+                                        <note tab.course="3" tab.fret="1" />
+                                        <note tab.course="6" tab.fret="3" />
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="9">
+                            <staff n="1">
+                                <layer n="1">
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="1" tab.fret="2" />
+                                        <note tab.course="3" tab.fret="0" />
+                                        <note tab.course="4" tab.fret="0" />
+                                    </tabGrp>
+                                    <tabGrp dur="4">
+                                        <tabDurSym loc="4" />
+                                        <note tab.course="1" tab.fret="2" />
+                                    </tabGrp>
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="1" tab.fret="3" />
+                                        <note tab.course="2" tab.fret="0" />
+                                        <note tab.course="4" tab.fret="2" />
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="10">
+                            <staff n="1">
+                                <layer n="1">
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="1" tab.fret="5" />
+                                        <note tab.course="3" tab.fret="3" />
+                                        <note tab.course="4" tab.fret="4" />
+                                    </tabGrp>
+                                    <tabGrp dur="4">
+                                        <tabDurSym loc="4" />
+                                        <note tab.course="4" tab.fret="0" />
+                                    </tabGrp>
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="1" tab.fret="3" />
+                                        <note tab.course="3" tab.fret="1" />
+                                        <note tab.course="4" tab.fret="2" />
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+
+                        <sb/>
+
+                        <measure n="11">
+                            <staff n="1">
+                                <layer n="1">
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="1" tab.fret="0" />
+                                        <note tab.course="3" tab.fret="3" />
+                                        <note tab.course="5" tab.fret="0" />
+                                    </tabGrp>
+                                    <tabGrp dur="8">
+                                        <tabDurSym loc="4" />
+                                        <note tab.course="1" tab.fret="0" />
+                                    </tabGrp>
+                                    <tabGrp dur="8">
+                                        <tabDurSym loc="4" />
+                                        <note tab.course="1" tab.fret="2" xml:id="id8" />
+                                    </tabGrp>
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="1" tab.fret="3" />
+                                        <note tab.course="2" tab.fret="0" />
+                                        <note tab.course="6" tab.fret="3" />
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                            <fing playingHand="right" playingFinger="1" startid="#id8" />
+                        </measure>
+                        <measure n="12">
+                            <staff n="1">
+                                <layer n="1">
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="1" tab.fret="2" />
+                                        <note tab.course="3" tab.fret="3" />
+                                        <note tab.course="4" tab.fret="0" />
+                                    </tabGrp>
+                                    <tabGrp dur="4">
+                                        <tabDurSym loc="4" />
+                                        <note tab.course="5" tab.fret="0" />
+                                    </tabGrp>
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="1" tab.fret="0" />
+                                        <note tab.course="4" tab.fret="2" />
+                                        <note tab.course="5" tab.fret="3" />
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="13">
+                            <staff n="1">
+                                <layer n="1">
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="2" tab.fret="3" />
+                                        <note tab.course="3" tab.fret="0" />
+                                        <note tab.course="5" tab.fret="2" />
+                                    </tabGrp>
+                                    <tabGrp dur="4">
+                                        <tabDurSym loc="4" />
+                                        <note tab.course="2" tab.fret="0" />
+                                        <note tab.course="6" tab.fret="3" />
+                                    </tabGrp>
+                                    <tabGrp dur="4">
+                                        <tabDurSym loc="4" />
+                                        <note tab.course="3" tab.fret="1" />
+                                        <note tab.course="5" tab.fret="2" />
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="14">
+                            <staff n="1">
+                                <layer n="1">
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="1" tab.fret="0" />
+                                        <note tab.course="3" tab.fret="3" />
+                                        <note tab.course="5" tab.fret="0" />
+                                    </tabGrp>
+                                    <tabGrp dur="4">
+                                        <tabDurSym loc="4" />
+                                        <note tab.course="3" tab.fret="0" />
+                                        <note tab.course="5" tab.fret="2" />
+                                    </tabGrp>
+                                    <tabGrp dur="4">
+                                        <tabDurSym loc="4" />
+                                        <note tab.course="2" tab.fret="4" />
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="15">
+                            <staff n="1">
+                                <layer n="1">
+                                    <tabGrp dur="2">
+                                        <tabDurSym />
+                                        <note tab.course="1" tab.fret="0" />
+                                        <note tab.course="4" tab.fret="2" />
+                                        <note tab.course="6" tab.fret="0" />
+                                    </tabGrp>
+                                    <tabGrp dur="4">
+                                        <tabDurSym loc="4" />
+                                        <note tab.course="4" tab.fret="0" />
+                                        <note tab.course="5" tab.fret="2" />
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="16">
+                            <staff n="1">
+                                <layer n="1">
+                                    <tabGrp dur="4">
+                                        <tabDurSym loc="4" />
+                                        <note tab.course="3" tab.fret="0" />
+                                        <note tab.course="4" tab.fret="0" />
+                                    </tabGrp>
+                                    <tabGrp dur="4">
+                                        <tabDurSym loc="4" />
+                                        <note tab.course="3" tab.fret="0" />
+                                    </tabGrp>
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="2" tab.fret="3" />
+                                        <note tab.course="3" tab.fret="1" />
+                                        <note tab.course="6" tab.fret="3" />
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="17">
+                            <staff n="1">
+                                <layer n="1">
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="1" tab.fret="2" />
+                                        <note tab.course="3" tab.fret="0" />
+                                        <note tab.course="4" tab.fret="0" />
+                                    </tabGrp>
+                                    <tabGrp dur="4">
+                                        <tabDurSym loc="4" />
+                                        <note tab.course="1" tab.fret="2" />
+                                    </tabGrp>
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="1" tab.fret="3" />
+                                        <note tab.course="2" tab.fret="0" />
+                                        <note tab.course="4" tab.fret="2" />
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+
+                        <sb/>
+
+                        <measure n="18">
+                            <staff n="1">
+                                <layer n="1">
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="1" tab.fret="5" />
+                                        <note tab.course="3" tab.fret="3" />
+                                        <note tab.course="4" tab.fret="4" />
+                                    </tabGrp>
+                                    <tabGrp dur="4">
+                                        <tabDurSym loc="4" />
+                                        <note tab.course="4" tab.fret="0" />
+                                    </tabGrp>
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="1" tab.fret="3" />
+                                        <note tab.course="3" tab.fret="1" />
+                                        <note tab.course="4" tab.fret="2" />
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="19">
+                            <staff n="1">
+                                <layer n="1">
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="1" tab.fret="0" />
+                                        <note tab.course="4" tab.fret="2" />
+                                        <note tab.course="5" tab.fret="3" />
+                                    </tabGrp>
+                                    <tabGrp dur="8">
+                                        <tabDurSym loc="4" />
+                                        <note tab.course="5" tab.fret="2" />
+                                    </tabGrp>
+                                    <tabGrp dur="8">
+                                        <tabDurSym loc="4" />
+                                        <note tab.course="5" tab.fret="0" xml:id="id9" />
+                                    </tabGrp>
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="1" tab.fret="3" />
+                                        <note tab.course="2" tab.fret="0" />
+                                        <note tab.course="6" tab.fret="3" />
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                            <fing playingHand="right" playingFinger="1" startid="#id9" />
+                        </measure>
+                        <measure n="20">
+                            <staff n="1">
+                                <layer n="1">
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="1" tab.fret="2" />
+                                        <note tab.course="3" tab.fret="3" />
+                                        <note tab.course="4" tab.fret="0" />
+                                    </tabGrp>
+                                    <tabGrp dur="4">
+                                        <tabDurSym loc="4" />
+                                        <note tab.course="5" tab.fret="0" />
+                                    </tabGrp>
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="1" tab.fret="0" />
+                                        <note tab.course="4" tab.fret="2" />
+                                        <note tab.course="5" tab.fret="3" />
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="21">
+                            <staff n="1">
+                                <layer n="1">
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="2" tab.fret="3" />
+                                        <note tab.course="3" tab.fret="0" />
+                                        <note tab.course="5" tab.fret="2" />
+                                    </tabGrp>
+                                    <tabGrp dur="4">
+                                        <tabDurSym loc="4" />
+                                        <note tab.course="2" tab.fret="0" />
+                                        <note tab.course="6" tab.fret="3" />
+                                    </tabGrp>
+                                    <tabGrp dur="4">
+                                        <tabDurSym loc="4" />
+                                        <note tab.course="3" tab.fret="1" />
+                                        <note tab.course="5" tab.fret="2" />
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="22">
+                            <staff n="1">
+                                <layer n="1">
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="1" tab.fret="0" />
+                                        <note tab.course="3" tab.fret="3" />
+                                        <note tab.course="5" tab.fret="0" />
+                                    </tabGrp>
+                                    <tabGrp dur="8">
+                                        <tabDurSym loc="4" />
+                                        <note tab.course="3" tab.fret="0" />
+                                        <note tab.course="5" tab.fret="2" />
+                                    </tabGrp>
+                                    <tabGrp dur="4">
+                                        <tabDurSym loc="4" />
+                                        <note tab.course="1" tab.fret="0" />
+                                    </tabGrp>
+                                    <tabGrp dur="8">
+                                        <tabDurSym loc="4" />
+                                        <note tab.course="2" tab.fret="4" />
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="23">
+                            <staff n="1">
+                                <layer n="1">
+                                    <tabGrp dur="2" dots="1" xml:id="id10">
+                                        <note tab.course="1" tab.fret="0" />
+                                        <note tab.course="4" tab.fret="2" />
+                                        <note tab.course="6" tab.fret="0" />
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                            <fermata startid="#id10" />
+                        </measure>
+                    </section>
+                </score>
+            </mdiv>
+        </body>
+    </music>
+</mei>
