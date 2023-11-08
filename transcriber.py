@@ -104,7 +104,7 @@ if __name__ == "__main__":
 		for item in os.listdir(paths['inpath']):
 			if args.trans == 'd' and (item.endswith('.xml') or item.endswith('.mei')):
 				infiles.append(item)
-			elif args.trans == 'p' and item.endswith('.tc'):
+			elif args.trans == 'p' and item.endswith('.tbp'):
 				infiles.append(item)	
 
 	if args.trans == 'd':
