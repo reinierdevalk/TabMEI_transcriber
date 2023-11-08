@@ -40,4 +40,4 @@ def transcribe_poly(infiles: str, arg_paths: dict, args: argparse.Namespace): # 
 
 	cmd = ['java', '-cp', cp, 'ui.UI', model_ID, '.', 'false', '', 
 		   infiles[0] if len(infiles) == 1 else '', trans_params]
-	call_java(cmd, False, use_Popen=True)
+	call_java(cmd, False)
