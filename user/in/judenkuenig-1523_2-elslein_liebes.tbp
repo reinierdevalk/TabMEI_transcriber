@@ -1,0 +1,42 @@
+{AUTHOR:JUDENKÜNIG, Hans}
+{TITLE:Elslein liebes Elslein}
+{SOURCE:Ain schone kunstliche Underweisung (1523), f. c4v}
+
+{TABSYMBOLSET:Judenkuenig1523}
+{TUNING:G}
+{METER_INFO:3/4 (1-24)}
+{DIMINUTION:1}
+
+{page 1}
+MC.M34{@rhythm signs next to each other in source (bottom one first)}.>.mi.>.mi.>.mi.g.5.>.|.
+mi.g.c.5.>.fu.5.>.fu.o.>.fu.5.>.fu.k.>.sm.g.c.p.>.sm.5.>.|.
+mi.2.n.k.>.fu.n.>.fu.h.>.fu.n.>.fu.4.>.mi.n.i.5.>.|.
+mi.2.o.k.>.sm.4.k.>.sm.v.>.mi.3.i.9.>.|.
+/
+{m. 5}
+mi.y.4.k-.>.mi.f-.>.mi.y.4.k-.>.|.
+sm.2.3.9.>.sm.g.>.sm.3.>.sm.h.>.mi.2.n.k.>.|.
+mi.g.c.p.>.sm.1.n.5.>.sm.o.>.sm.4.>.sm.i.>.|{@no barline in source}.
+sb.f.3.o.>.mi.f.2.>.|.
+mi.2.3.>.mi.3.>.mi.D.c.o.>.|.
+{m. 10}
+mi.2.3.k.>.mi.k.>.mi.g.4.p.>.|.
+mi.r.n.9.>.mi.2.>.mi.g.c.p.>.|.
+/
+mi.1.n.5.>.sm.5.>.sm.k.>.mi.D.4.p.>.|.
+mi.2.n.k.>.mi.1.>.mi.l.g.5.>.|.
+mi.f.3.o.>.mi.D.4.>.mi.f.c.>.|.
+{m. 15}
+mi.1.n.5.>.mi.f.3.>.mi.t.>.|.
+sb.A.g.5.>.mi.f.2.>.|.
+mi.2.3.>.mi.3.>.mi.D.c.o.>.|.
+mi.2.3.k.>.mi.k.>.mi.g.4.p.>.|.
+/
+mi.r.n.9.>.mi.2.>.mi.g.c.p.>.|.
+{m. 20}
+mi.l.g.5.>.sm.f.>.sm.1.>.mi.D.4.p.>.|.
+mi.2.n.k.>.mi.1.>.mi.l.g.5.>.|.
+mi.f.3.o.>.mi.D.4.>.mi.f.c.>.|.
+mi.1.n.5.>.sm.f.3.>.mi.5.>.sm.t.>.|.
+cosb*.A.g.5.>.|.
+//
