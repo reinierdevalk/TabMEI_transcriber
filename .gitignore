@@ -1,5 +1,7 @@
 user/in/*
 !user/in/.gitkeep
+user/out/*
+!user/out/.gitkeep
 user/out/mapped/*
 !user/out/mapped/.gitkeep
 user/out/N-bwd-thesis-int-4vv/*
