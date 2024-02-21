@@ -1,5 +1,3 @@
-in/
-!in/.gitkeep
-out/
-!out/.gitkeep
+in/*
+out/*
 
