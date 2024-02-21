@@ -1,0 +1,1472 @@
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+	<meiHead>
+		<fileDesc>
+			<titleStmt>
+				<title>No. 8</title>
+			</titleStmt>
+			<pubStmt />
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application isodate="2024-01-17" version="1.4.10">
+					<name>luteconv</name>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<workList>
+			<work>
+				<title>No. 8</title>
+			</work>
+		</workList>
+	</meiHead>
+	<music>
+		<body>
+			<mdiv xml:id="m1tp7opx" n="1">
+				<score xml:id="s49vss3">
+					<scoreDef xml:id="s16ngkjf">
+						<staffGrp xml:id="s1gqt9v6">
+							<staffGrp>
+								<staffDef n="1" lines="5" dir.dist="4">
+									<clef shape="G" line="2" dis="8" dis.place="below" />
+									<keySig sig="0f" mode="major" />
+								</staffDef>
+							</staffGrp>
+							<staffDef xml:id="s1k72c9x" n="2" notationtype="tab.lute.french" lines="6">
+								<tuning>
+									<course n="1" pname="g" oct="4" accid="" />
+									<course n="2" pname="d" oct="4" accid="" />
+									<course n="3" pname="a" oct="3" accid="" />
+									<course n="4" pname="f" oct="3" accid="" />
+									<course n="5" pname="c" oct="3" accid="" />
+									<course n="6" pname="g" oct="2" accid="" />
+								</tuning>
+							</staffDef>
+						</staffGrp>
+					</scoreDef>
+					<section xml:id="swp8oj1" n="1">
+						<measure xml:id="m6totu1" n="1">
+							<staff n="1">
+								<layer n="1">
+									<chord dur="2" stem.visible="false" xml:id="e1">
+										<note pname="f" oct="4" head.fill="solid" />
+										<note pname="c" oct="4" head.fill="solid" />
+										<note pname="f" oct="3" head.fill="solid" />
+									</chord>
+									<chord dur="2" stem.visible="false" xml:id="e2">
+										<note pname="g" oct="4" head.fill="solid" />
+										<note pname="e" oct="4" head.fill="solid" />
+										<note pname="c" oct="4" head.fill="solid" />
+										<note pname="c" oct="3" head.fill="solid" />
+									</chord>
+								</layer>
+							</staff>
+							<dir place="above" startid="#e1">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationWhole" />
+							</dir>
+							<dir place="above" startid="#e2">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationWhole" />
+							</dir>
+							<staff xml:id="s1jd30ex" n="2">
+								<layer xml:id="ldbsklt" n="1">
+									<tabGrp xml:id="t8ufrxz" dur="2">
+										<tabDurSym xml:id="t3bfk8k" />
+										<note xml:id="n1b8kf0o" tab.course="2" tab.fret="3" />
+										<note xml:id="n1al313p" tab.course="3" tab.fret="3" />
+										<note xml:id="n1ujmvn1" tab.course="4" tab.fret="0" />
+									</tabGrp>
+									<tabGrp xml:id="td2bkx6" dur="2">
+										<tabDurSym xml:id="t1mvejqw" />
+										<note xml:id="n1d64c9m" tab.course="1" tab.fret="0" />
+										<note xml:id="nioai2p" tab.course="2" tab.fret="2" />
+										<note xml:id="nsn0230" tab.course="3" tab.fret="3" />
+										<note xml:id="n2zhr4u" tab.course="5" tab.fret="0" />
+									</tabGrp>
+								</layer>
+							</staff>
+						</measure>
+						<measure xml:id="mkfio3t" n="2">
+							<staff n="1">
+								<layer n="1">
+									<chord dur="2" stem.visible="false" xml:id="e3">
+										<note pname="a" oct="4" head.fill="solid" />
+										<note pname="f" oct="4" head.fill="solid" />
+										<note pname="c" oct="4" head.fill="solid" />
+										<note pname="f" oct="3" head.fill="solid" />
+									</chord>
+									<chord dur="8" stem.visible="false" xml:id="e4">
+										<note pname="b" oct="4" head.fill="solid" accid="f" />
+										<note pname="d" oct="4" head.fill="solid" />
+										<note pname="f" oct="3" head.fill="solid" />
+										<note pname="b" oct="2" head.fill="solid" accid="f" />
+									</chord>
+									<chord dur="8" stem.visible="false" xml:id="e5">
+										<note pname="c" oct="3" head.fill="solid" />
+									</chord>
+									<chord dur="8" stem.visible="false" xml:id="e6">
+										<note pname="d" oct="3" head.fill="solid" />
+									</chord>
+									<chord dur="8" stem.visible="false" xml:id="e7">
+										<note pname="e" oct="3" head.fill="solid" accid="f" />
+									</chord>
+								</layer>
+							</staff>
+							<dir place="above" startid="#e3">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationWhole" />
+							</dir>
+							<dir place="above" startid="#e4">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationQuarter" />
+							</dir>
+							<dir place="above" startid="#e5">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationQuarter" />
+							</dir>
+							<dir place="above" startid="#e6">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationQuarter" />
+							</dir>
+							<dir place="above" startid="#e7">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationQuarter" />
+							</dir>
+							<staff xml:id="s1i0n7d1" n="2">
+								<layer xml:id="l1hfse9h" n="1">
+									<tabGrp xml:id="t12diboa" dur="2">
+										<tabDurSym xml:id="t38j2j0" />
+										<note xml:id="nonveui" tab.course="1" tab.fret="2" />
+										<note xml:id="n1b77691" tab.course="2" tab.fret="3" />
+										<note xml:id="nk08g8g" tab.course="3" tab.fret="3" />
+										<note xml:id="nskkj50" tab.course="4" tab.fret="0" />
+									</tabGrp>
+									<beam xml:id="b601tmy">
+										<tabGrp xml:id="tvq6spx" dur="8">
+											<tabDurSym xml:id="tvc9vrt" />
+											<note xml:id="nff6lmp" tab.course="1" tab.fret="3" />
+											<note xml:id="n16v693j" tab.course="2" tab.fret="0" />
+											<note xml:id="nvxh9ev" tab.course="4" tab.fret="0" />
+											<note xml:id="n5c2wu9" tab.course="6" tab.fret="3" />
+										</tabGrp>
+										<tabGrp xml:id="t1m7w2wn" dur="8">
+											<tabDurSym xml:id="tslsano" />
+											<note xml:id="nbrl6nn" tab.course="5" tab.fret="0" />
+										</tabGrp>
+									</beam>
+									<beam xml:id="bvx3lvc">
+										<tabGrp xml:id="tu0r3cq" dur="8">
+											<tabDurSym xml:id="t1v7ryi" />
+											<note xml:id="nmbjlm6" tab.course="5" tab.fret="2" />
+										</tabGrp>
+										<tabGrp xml:id="taycuw" dur="8">
+											<tabDurSym xml:id="t96dj18" />
+											<note xml:id="nqds1u0" tab.course="5" tab.fret="3" />
+										</tabGrp>
+									</beam>
+								</layer>
+							</staff>
+						</measure>
+						<measure xml:id="m1ypyou0" n="3">
+							<staff n="1">
+								<layer n="1">
+									<chord dur="8" stem.visible="false" xml:id="e8">
+										<note pname="a" oct="4" head.fill="solid" />
+										<note pname="f" oct="4" head.fill="solid" />
+										<note pname="c" oct="4" head.fill="solid" />
+										<note pname="f" oct="3" head.fill="solid" />
+									</chord>
+									<chord dur="8" stem.visible="false" xml:id="e9">
+										<note pname="e" oct="4" head.fill="solid" />
+									</chord>
+									<chord dur="8" stem.visible="false" xml:id="e10">
+										<note pname="g" oct="4" head.fill="solid" />
+										<note pname="d" oct="4" head.fill="solid" />
+										<note pname="b" oct="3" head.fill="solid" accid="f" />
+										<note pname="g" oct="3" head.fill="solid" />
+									</chord>
+									<chord dur="8" stem.visible="false" xml:id="e11">
+										<note pname="c" oct="4" head.fill="solid" />
+									</chord>
+									<chord dur="4" stem.visible="false" xml:id="e12">
+										<note pname="d" oct="4" head.fill="solid" />
+										<note pname="a" oct="3" head.fill="solid" />
+										<note pname="d" oct="3" head.fill="solid" />
+									</chord>
+									<chord dur="4" stem.visible="false" xml:id="e13">
+										<note pname="f" oct="4" head.fill="solid" accid="s" />
+									</chord>
+								</layer>
+							</staff>
+							<dir place="above" startid="#e8">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationQuarter" />
+							</dir>
+							<dir place="above" startid="#e9">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationQuarter" />
+							</dir>
+							<dir place="above" startid="#e10">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationQuarter" />
+							</dir>
+							<dir place="above" startid="#e11">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationQuarter" />
+							</dir>
+							<dir place="above" startid="#e12">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationHalf" />
+							</dir>
+							<dir place="above" startid="#e13">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationHalf" />
+							</dir>
+							<staff xml:id="s9s69ep" n="2">
+								<layer xml:id="l106hpon" n="1">
+									<beam xml:id="ba9kd3p">
+										<tabGrp xml:id="tr0ovzw" dur="8">
+											<tabDurSym xml:id="tt9ap24" />
+											<note xml:id="n36c1wz" tab.course="1" tab.fret="2" />
+											<note xml:id="n1d71m2q" tab.course="2" tab.fret="3" />
+											<note xml:id="n1p62qv0" tab.course="3" tab.fret="3" />
+											<note xml:id="ncigcr5" tab.course="4" tab.fret="0" />
+										</tabGrp>
+										<tabGrp xml:id="t1u0ddm" dur="8">
+											<tabDurSym xml:id="tcpa74w" />
+											<note xml:id="nc068qk" tab.course="2" tab.fret="2" />
+										</tabGrp>
+									</beam>
+									<beam xml:id="b5ha9cv">
+										<tabGrp xml:id="t13vt5sm" dur="8">
+											<tabDurSym xml:id="tglc9r1" />
+											<note xml:id="n1t1my4a" tab.course="1" tab.fret="0" />
+											<note xml:id="nhmscwi" tab.course="2" tab.fret="0" />
+											<note xml:id="nlv2nze" tab.course="3" tab.fret="1" />
+											<note xml:id="n4xit8i" tab.course="4" tab.fret="2" />
+										</tabGrp>
+										<tabGrp xml:id="tykeqak" dur="8">
+											<tabDurSym xml:id="tdvo8a1" />
+											<note xml:id="n96snvy" tab.course="3" tab.fret="3" />
+										</tabGrp>
+									</beam>
+									<tabGrp xml:id="tqq3z6p" dur="4">
+										<tabDurSym xml:id="t1wkk9yc" />
+										<note xml:id="n7pjmbi" tab.course="2" tab.fret="0" />
+										<note xml:id="nqltsvw" tab.course="3" tab.fret="0" />
+										<note xml:id="n93ziv9" tab.course="5" tab.fret="2" />
+									</tabGrp>
+									<tabGrp xml:id="tf9b2s1" dur="4">
+										<tabDurSym xml:id="tnse5ek" />
+										<note xml:id="n1aytjei" tab.course="2" tab.fret="4" />
+									</tabGrp>
+								</layer>
+							</staff>
+						</measure>
+						<measure xml:id="m1mea3d6" n="4">
+							<staff n="1">
+								<layer n="1">
+									<chord dur="4" stem.visible="false" xml:id="e14">
+										<note pname="g" oct="4" head.fill="solid" />
+										<note pname="b" oct="3" head.fill="solid" accid="f" />
+										<note pname="g" oct="3" head.fill="solid" />
+										<note pname="g" oct="2" head.fill="solid" />
+									</chord>
+									<chord dur="4" stem.visible="false" xml:id="e15">
+										<note pname="g" oct="4" head.fill="solid" />
+										<note pname="b" oct="3" head.fill="solid" />
+									</chord>
+									<chord dur="4" stem.visible="false" xml:id="e16">
+										<note pname="a" oct="4" head.fill="solid" />
+										<note pname="d" oct="4" head.fill="solid" />
+										<note pname="a" oct="3" head.fill="solid" />
+										<note pname="d" oct="3" head.fill="solid" />
+									</chord>
+									<chord dur="4" stem.visible="false" xml:id="e17">
+										<note pname="b" oct="4" head.fill="solid" accid="f" />
+										<note pname="f" oct="3" head.fill="solid" />
+									</chord>
+								</layer>
+							</staff>
+							<dir place="above" startid="#e14">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationHalf" />
+							</dir>
+							<dir place="above" startid="#e15">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationHalf" />
+							</dir>
+							<dir place="above" startid="#e16">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationHalf" />
+							</dir>
+							<dir place="above" startid="#e17">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationHalf" />
+							</dir>
+							<staff xml:id="sdlu6fi" n="2">
+								<layer xml:id="l5zfwlw" n="1">
+									<tabGrp xml:id="t1ife9t7" dur="4">
+										<tabDurSym xml:id="tocl20r" />
+										<note xml:id="n1rxum30" tab.course="1" tab.fret="0" />
+										<note xml:id="n2qg1yd" tab.course="3" tab.fret="1" />
+										<note xml:id="norc3nr" tab.course="4" tab.fret="2" />
+										<note xml:id="nyno0t3" tab.course="6" tab.fret="0" />
+									</tabGrp>
+									<tabGrp xml:id="t1pjal6c" dur="4">
+										<tabDurSym xml:id="t1hmx851" />
+										<note xml:id="ng1lh7y" tab.course="1" tab.fret="0" />
+										<note xml:id="nvf7flo" tab.course="3" tab.fret="1" />
+									</tabGrp>
+									<tabGrp xml:id="t21cums" dur="4">
+										<tabDurSym xml:id="tnq8ljq" />
+										<note xml:id="n1gzm34d" tab.course="1" tab.fret="2" />
+										<note xml:id="n1hmjpzl" tab.course="2" tab.fret="0" />
+										<note xml:id="nz06ffu" tab.course="3" tab.fret="0" />
+										<note xml:id="n1iuuebq" tab.course="5" tab.fret="2" />
+									</tabGrp>
+									<tabGrp xml:id="t1so1xlx" dur="4">
+										<tabDurSym xml:id="tk51qvu" />
+										<note xml:id="nbrl3nf" tab.course="1" tab.fret="3" />
+										<note xml:id="n6wi10k" tab.course="4" tab.fret="0" />
+									</tabGrp>
+								</layer>
+							</staff>
+						</measure>
+						<measure xml:id="m1j6hlq9" n="5">
+							<staff n="1">
+								<layer n="1">
+									<chord dur="8" stem.visible="false" xml:id="e18">
+										<note pname="c" oct="5" head.fill="solid" />
+										<note pname="e" oct="4" head.fill="solid" />
+										<note pname="g" oct="2" head.fill="solid" />
+									</chord>
+									<chord dur="8" stem.visible="false" xml:id="e19">
+										<note pname="b" oct="4" head.fill="solid" accid="f" />
+									</chord>
+									<chord dur="8" stem.visible="false" xml:id="e20">
+										<note pname="a" oct="4" head.fill="solid" />
+										<note pname="c" oct="4" head.fill="solid" />
+									</chord>
+									<chord dur="8" stem.visible="false" xml:id="e21">
+										<note pname="g" oct="4" head.fill="solid" />
+									</chord>
+									<chord dur="4" stem.visible="false" xml:id="e22">
+										<note pname="f" oct="4" head.fill="solid" />
+										<note pname="a" oct="3" head.fill="solid" />
+										<note pname="d" oct="3" head.fill="solid" />
+									</chord>
+									<chord dur="4" stem.visible="false" xml:id="e23">
+										<note pname="a" oct="4" head.fill="solid" />
+										<note pname="a" oct="3" head.fill="solid" />
+										<note pname="f" oct="3" head.fill="solid" />
+									</chord>
+								</layer>
+							</staff>
+							<dir place="above" startid="#e18">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationQuarter" />
+							</dir>
+							<dir place="above" startid="#e19">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationQuarter" />
+							</dir>
+							<dir place="above" startid="#e20">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationQuarter" />
+							</dir>
+							<dir place="above" startid="#e21">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationQuarter" />
+							</dir>
+							<dir place="above" startid="#e22">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationHalf" />
+							</dir>
+							<dir place="above" startid="#e23">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationHalf" />
+							</dir>
+							<staff xml:id="s1qz7or1" n="2">
+								<layer xml:id="l1hteeo5" n="1">
+									<beam xml:id="b3gxyar">
+										<tabGrp xml:id="t181frjr" dur="8">
+											<tabDurSym xml:id="t1hl4vk7" />
+											<note xml:id="nh6aew7" tab.course="1" tab.fret="5" />
+											<note xml:id="n1awqec2" tab.course="2" tab.fret="2" />
+											<note xml:id="n8wo2je" tab.course="6" tab.fret="0" />
+										</tabGrp>
+										<tabGrp xml:id="t1ds8rta" dur="8">
+											<tabDurSym xml:id="t1ir8l13" />
+											<note xml:id="n1bx31zm" tab.course="1" tab.fret="3" />
+										</tabGrp>
+									</beam>
+									<beam xml:id="b1so9bgv">
+										<tabGrp xml:id="t1nwbmlb" dur="8">
+											<tabDurSym xml:id="tnxnyvn" />
+											<note xml:id="n7dq68t" tab.course="1" tab.fret="2" />
+											<note xml:id="n12p1sgd" tab.course="3" tab.fret="3" />
+										</tabGrp>
+										<tabGrp xml:id="tqgwwgf" dur="8">
+											<tabDurSym xml:id="tx4x10j" />
+											<note xml:id="n198c5ij" tab.course="1" tab.fret="0" />
+										</tabGrp>
+									</beam>
+									<tabGrp xml:id="t15hejj6" dur="4">
+										<tabDurSym xml:id="t5br4yy" />
+										<note xml:id="n135vqea" tab.course="2" tab.fret="3" />
+										<note xml:id="nfz13y1" tab.course="3" tab.fret="0" />
+										<note xml:id="ns7mqwv" tab.course="5" tab.fret="2" />
+									</tabGrp>
+									<tabGrp xml:id="t1haf5it" dur="4">
+										<tabDurSym xml:id="t1187506" />
+										<note xml:id="nnzx8vt" tab.course="1" tab.fret="2" />
+										<note xml:id="n1uw09ft" tab.course="3" tab.fret="0" />
+										<note xml:id="n11pogvm" tab.course="4" tab.fret="0" />
+									</tabGrp>
+								</layer>
+							</staff>
+						</measure>
+						<measure xml:id="mjhuiy5" n="6">
+							<staff n="1">
+								<layer n="1">
+									<chord dur="8" stem.visible="false" xml:id="e24">
+										<note pname="g" oct="4" head.fill="solid" />
+										<note pname="e" oct="4" head.fill="solid" accid="f" />
+										<note pname="e" oct="3" head.fill="solid" accid="f" />
+									</chord>
+									<chord dur="8" stem.visible="false" xml:id="e25">
+										<note pname="d" oct="4" head.fill="solid" />
+									</chord>
+									<chord dur="8" stem.visible="false" xml:id="e26">
+										<note pname="f" oct="4" head.fill="solid" />
+										<note pname="f" oct="3" head.fill="solid" />
+									</chord>
+									<chord dur="8" stem.visible="false" xml:id="e27">
+										<note pname="b" oct="3" head.fill="solid" accid="f" />
+									</chord>
+									<chord dur="8" stem.visible="false" xml:id="e28">
+										<note pname="c" oct="4" head.fill="solid" />
+										<note pname="g" oct="3" head.fill="solid" />
+										<note pname="c" oct="3" head.fill="solid" />
+									</chord>
+									<chord dur="8" stem.visible="false" xml:id="e29">
+										<note pname="e" oct="4" head.fill="solid" accid="n" />
+									</chord>
+									<chord dur="16" stem.visible="false" xml:id="e30">
+										<note pname="f" oct="4" head.fill="solid" />
+									</chord>
+									<chord dur="16" stem.visible="false" xml:id="e31">
+										<note pname="e" oct="4" head.fill="solid" />
+									</chord>
+									<chord dur="16" stem.visible="false" xml:id="e32">
+										<note pname="d" oct="4" head.fill="solid" />
+									</chord>
+									<chord dur="16" stem.visible="false" xml:id="e33">
+										<note pname="e" oct="4" head.fill="solid" />
+									</chord>
+								</layer>
+							</staff>
+							<dir place="above" startid="#e24">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationQuarter" />
+							</dir>
+							<dir place="above" startid="#e25">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationQuarter" />
+							</dir>
+							<dir place="above" startid="#e26">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationQuarter" />
+							</dir>
+							<dir place="above" startid="#e27">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationQuarter" />
+							</dir>
+							<dir place="above" startid="#e28">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationQuarter" />
+							</dir>
+							<dir place="above" startid="#e29">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationQuarter" />
+							</dir>
+							<dir place="above" startid="#e30">
+								<symbol glyph.auth="smufl" glyph.name="luteDuration8th" />
+							</dir>
+							<dir place="above" startid="#e31">
+								<symbol glyph.auth="smufl" glyph.name="luteDuration8th" />
+							</dir>
+							<dir place="above" startid="#e32">
+								<symbol glyph.auth="smufl" glyph.name="luteDuration8th" />
+							</dir>
+							<dir place="above" startid="#e33">
+								<symbol glyph.auth="smufl" glyph.name="luteDuration8th" />
+							</dir>
+							<staff xml:id="s1titu5c" n="2">
+								<layer xml:id="l108las" n="1">
+									<beam xml:id="b1iftiw8">
+										<tabGrp xml:id="t1n2fm5l" dur="8">
+											<tabDurSym xml:id="tudq0zg" />
+											<note xml:id="nxp6hxd" tab.course="1" tab.fret="0" />
+											<note xml:id="nh5gamj" tab.course="2" tab.fret="1" />
+											<note xml:id="ns1lg71" tab.course="5" tab.fret="3" />
+										</tabGrp>
+										<tabGrp xml:id="t1sprhjq" dur="8">
+											<tabDurSym xml:id="t13pcuiv" />
+											<note xml:id="no7cjna" tab.course="2" tab.fret="0" />
+										</tabGrp>
+									</beam>
+									<beam xml:id="bpi706e">
+										<tabGrp xml:id="t2v9a59" dur="8">
+											<tabDurSym xml:id="t1247uos" />
+											<note xml:id="n1m7lbrz" tab.course="2" tab.fret="3" />
+											<note xml:id="ng3pt3v" tab.course="4" tab.fret="0" />
+										</tabGrp>
+										<tabGrp xml:id="tixlsts" dur="8">
+											<tabDurSym xml:id="t4uq7yg" />
+											<note xml:id="n1b4dnxm" tab.course="3" tab.fret="1" />
+										</tabGrp>
+									</beam>
+									<beam xml:id="b109sdi8">
+										<tabGrp xml:id="t1bcx08v" dur="8">
+											<tabDurSym xml:id="t1llrgi3" />
+											<note xml:id="nhoufxw" tab.course="3" tab.fret="3" />
+											<note xml:id="nuy8flt" tab.course="4" tab.fret="2" />
+											<note xml:id="n1myjd3b" tab.course="5" tab.fret="0" />
+										</tabGrp>
+										<tabGrp xml:id="t51sw02" dur="8">
+											<tabDurSym xml:id="t1ij8ces" />
+											<note xml:id="npgopr1" tab.course="2" tab.fret="2" />
+										</tabGrp>
+									</beam>
+									<beam xml:id="b1jm05tg">
+										<tabGrp xml:id="ts2tg4k" dur="16">
+											<tabDurSym xml:id="t1pbx3us" />
+											<note xml:id="n1a5bo7t" tab.course="2" tab.fret="3" />
+										</tabGrp>
+										<tabGrp xml:id="tvy82ks" dur="16">
+											<tabDurSym xml:id="tdj5118" />
+											<note xml:id="nvw3wmo" tab.course="2" tab.fret="2" />
+										</tabGrp>
+										<tabGrp xml:id="tc2rrup" dur="16">
+											<tabDurSym xml:id="t1pors80" />
+											<note xml:id="n1qaaofj" tab.course="2" tab.fret="0" />
+										</tabGrp>
+										<tabGrp xml:id="t1ynxlhu" dur="16">
+											<tabDurSym xml:id="t15on06g" />
+											<note xml:id="n1d6to30" tab.course="2" tab.fret="2" />
+										</tabGrp>
+									</beam>
+								</layer>
+							</staff>
+						</measure>
+						<measure xml:id="mtpxokj" n="7">
+							<staff n="1">
+								<layer n="1">
+									<chord dur="2" stem.visible="false" xml:id="e34">
+										<note pname="f" oct="4" head.fill="solid" />
+										<note pname="c" oct="4" head.fill="solid" />
+										<note pname="f" oct="3" head.fill="solid" />
+									</chord>
+								</layer>
+							</staff>
+							<dir place="above" startid="#e34">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationWhole" />
+							</dir>
+							<staff xml:id="s1qpmd7b" n="2">
+								<layer xml:id="l6t45gu" n="1">
+									<tabGrp xml:id="t1x82b9p" dur="2">
+										<tabDurSym xml:id="t1oe6o7b" />
+										<note xml:id="n1h5e5iw" tab.course="2" tab.fret="3" />
+										<note xml:id="no2aiqz" tab.course="3" tab.fret="3" />
+										<note xml:id="n1e53w4k" tab.course="4" tab.fret="0" />
+									</tabGrp>
+								</layer>
+							</staff>
+						</measure>
+						<measure xml:id="m1qa24p1" n="8">
+							<staff n="1">
+								<layer n="1">
+									<chord dur="8" stem.visible="false" xml:id="e35">
+										<note pname="e" oct="4" head.fill="solid" />
+										<note pname="g" oct="3" head.fill="solid" />
+										<note pname="c" oct="3" head.fill="solid" />
+									</chord>
+									<chord dur="8" stem.visible="false" xml:id="e36">
+										<note pname="d" oct="4" head.fill="solid" />
+									</chord>
+									<chord dur="8" stem.visible="false" xml:id="e37">
+										<note pname="e" oct="4" head.fill="solid" />
+									</chord>
+									<chord dur="8" stem.visible="false" xml:id="e38">
+										<note pname="f" oct="4" head.fill="solid" />
+									</chord>
+								</layer>
+							</staff>
+							<dir place="above" startid="#e35">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationQuarter" />
+							</dir>
+							<dir place="above" startid="#e36">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationQuarter" />
+							</dir>
+							<dir place="above" startid="#e37">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationQuarter" />
+							</dir>
+							<dir place="above" startid="#e38">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationQuarter" />
+							</dir>
+							<staff xml:id="su4jgza" n="2">
+								<layer xml:id="lk6x704" n="1">
+									<beam xml:id="bsnz7tr">
+										<tabGrp xml:id="tgqs0yw" dur="8">
+											<tabDurSym xml:id="t1wcrijm" />
+											<note xml:id="n1juz32c" tab.course="2" tab.fret="2" />
+											<note xml:id="n1ut87ur" tab.course="4" tab.fret="2" />
+											<note xml:id="n168ftkl" tab.course="5" tab.fret="0" />
+										</tabGrp>
+										<tabGrp xml:id="tsdqjx" dur="8">
+											<tabDurSym xml:id="t149zn7o" />
+											<note xml:id="n195lggm" tab.course="2" tab.fret="0" />
+										</tabGrp>
+									</beam>
+									<beam xml:id="bhr47pg">
+										<tabGrp xml:id="t1pyk7z7" dur="8">
+											<tabDurSym xml:id="t123cnog" />
+											<note xml:id="ngm89rm" tab.course="2" tab.fret="2" />
+										</tabGrp>
+										<tabGrp xml:id="tg7j2aq" dur="8">
+											<tabDurSym xml:id="t1bk5l9r" />
+											<note xml:id="n3vngl7" tab.course="2" tab.fret="3" />
+										</tabGrp>
+									</beam>
+								</layer>
+							</staff>
+						</measure>
+						<measure xml:id="mrhmdof" n="9">
+							<staff n="1">
+								<layer n="1">
+									<chord dur="4" stem.visible="false" xml:id="e39">
+										<note pname="g" oct="4" head.fill="solid" />
+										<note pname="c" oct="4" head.fill="solid" />
+										<note pname="c" oct="3" head.fill="solid" />
+									</chord>
+									<chord dur="4" stem.visible="false" xml:id="e40">
+										<note pname="a" oct="4" head.fill="solid" />
+										<note pname="d" oct="3" head.fill="solid" />
+									</chord>
+									<chord dur="2" stem.visible="false" xml:id="e41">
+										<note pname="e" oct="3" head.fill="solid" />
+									</chord>
+								</layer>
+							</staff>
+							<staff xml:id="s6r46cv" n="2">
+								<layer xml:id="lb3guv6" n="1">
+									<tabGrp xml:id="t13ngy7n" dur="4">
+										<tabDurSym xml:id="t1jo01kn" />
+										<note xml:id="n7ugymk" tab.course="1" tab.fret="0" />
+										<note xml:id="n1rxpiqv" tab.course="3" tab.fret="3" />
+										<note xml:id="nfeoyw6" tab.course="5" tab.fret="0" />
+									</tabGrp>
+									<tabGrp xml:id="t6rqexp" dur="4">
+										<tabDurSym xml:id="t1d38jxc" />
+										<note xml:id="nha1fzm" tab.course="1" tab.fret="2" />
+										<note xml:id="n1s7hb56" tab.course="5" tab.fret="2" />
+									</tabGrp>
+									<tabGrp xml:id="id0" dur="2">
+										<note xml:id="n12juely" tab.course="5" tab.fret="4" />
+									</tabGrp>
+								</layer>
+							</staff>
+							<dir place="above" startid="#e39">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationHalf" />
+							</dir>
+							<dir place="above" startid="#e40">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationHalf" />
+							</dir>
+							<fermata xml:id="ftd1pak" startid="#id0" />
+						</measure>
+						<measure xml:id="m1w1jjcy" n="10">
+							<staff n="1">
+								<layer n="1">
+									<chord dur="4" stem.visible="false" xml:id="e42">
+										<note pname="b" oct="4" head.fill="solid" accid="f" />
+										<note pname="d" oct="4" head.fill="solid" />
+										<note pname="f" oct="3" head.fill="solid" />
+										<note pname="b" oct="2" head.fill="solid" accid="f" />
+									</chord>
+									<chord dur="4" stem.visible="false" xml:id="e43">
+										<note pname="d" oct="3" head.fill="solid" />
+									</chord>
+									<chord dur="8" stem.visible="false" xml:id="e44">
+										<note pname="b" oct="4" head.fill="solid" />
+										<note pname="d" oct="4" head.fill="solid" />
+										<note pname="d" oct="3" head.fill="solid" />
+										<note pname="g" oct="2" head.fill="solid" />
+									</chord>
+									<chord dur="8" stem.visible="false" xml:id="e45">
+										<note pname="a" oct="2" head.fill="solid" />
+									</chord>
+									<chord dur="8" stem.visible="false" xml:id="e46">
+										<note pname="b" oct="2" head.fill="solid" />
+									</chord>
+									<chord dur="8" stem.visible="false" xml:id="e47">
+										<note pname="c" oct="3" head.fill="solid" />
+									</chord>
+								</layer>
+							</staff>
+							<dir place="above" startid="#e42">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationHalf" />
+							</dir>
+							<dir place="above" startid="#e43">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationHalf" />
+							</dir>
+							<dir place="above" startid="#e44">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationQuarter" />
+							</dir>
+							<dir place="above" startid="#e45">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationQuarter" />
+							</dir>
+							<dir place="above" startid="#e46">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationQuarter" />
+							</dir>
+							<dir place="above" startid="#e47">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationQuarter" />
+							</dir>
+							<staff xml:id="sjkosol" n="2">
+								<layer xml:id="l136wiy" n="1">
+									<tabGrp xml:id="t7gaanp" dur="4">
+										<tabDurSym xml:id="taja6c0" />
+										<note xml:id="n1bvoy3j" tab.course="1" tab.fret="3" />
+										<note xml:id="n1pbz29f" tab.course="2" tab.fret="0" />
+										<note xml:id="n1i77o1z" tab.course="4" tab.fret="0" />
+										<note xml:id="n1be7h6v" tab.course="6" tab.fret="3" />
+									</tabGrp>
+									<tabGrp xml:id="tilwhc2" dur="4">
+										<tabDurSym xml:id="t6du60n" />
+										<note xml:id="no1gqq7" tab.course="5" tab.fret="2" />
+									</tabGrp>
+									<beam xml:id="b1dobrrb">
+										<tabGrp xml:id="t1dgz4do" dur="8">
+											<tabDurSym xml:id="t15ey2t8" />
+											<note xml:id="njkcum6" tab.course="1" tab.fret="3" />
+											<note xml:id="not0qtp" tab.course="2" tab.fret="0" />
+											<note xml:id="n5gt7f" tab.course="5" tab.fret="2" />
+											<note xml:id="ntijldj" tab.course="6" tab.fret="0" />
+										</tabGrp>
+										<tabGrp xml:id="t1tii9vx" dur="8">
+											<tabDurSym xml:id="t1ujt49r" />
+											<note xml:id="n16p7vvc" tab.course="6" tab.fret="2" />
+										</tabGrp>
+									</beam>
+									<beam xml:id="bgq8xnk">
+										<tabGrp xml:id="t1l3eojr" dur="8">
+											<tabDurSym xml:id="t1c9jona" />
+											<note xml:id="ngb18at" tab.course="6" tab.fret="3" />
+										</tabGrp>
+										<tabGrp xml:id="t18uzdt5" dur="8">
+											<tabDurSym xml:id="t1ijq7fx" />
+											<note xml:id="njqtg2c" tab.course="6" tab.fret="5" />
+										</tabGrp>
+									</beam>
+								</layer>
+							</staff>
+						</measure>
+						<measure xml:id="m1pujz06" n="11">
+							<staff n="1">
+								<layer n="1">
+									<chord dur="8" stem.visible="false" xml:id="e48">
+										<note pname="a" oct="4" head.fill="solid" />
+										<note pname="a" oct="3" head.fill="solid" />
+										<note pname="d" oct="3" head.fill="solid" />
+									</chord>
+									<chord dur="8" stem.visible="false" xml:id="e49">
+										<note pname="g" oct="3" head.fill="solid" />
+										<note pname="c" oct="3" head.fill="solid" />
+									</chord>
+									<chord dur="8" stem.visible="false" xml:id="e50">
+										<note pname="a" oct="3" head.fill="solid" />
+										<note pname="f" oct="3" head.fill="solid" />
+									</chord>
+									<chord dur="8" stem.visible="false" xml:id="e51">
+										<note pname="g" oct="4" head.fill="solid" />
+									</chord>
+									<chord dur="8" stem.visible="false" xml:id="e52">
+										<note pname="f" oct="4" head.fill="solid" />
+										<note pname="c" oct="4" head.fill="solid" />
+										<note pname="f" oct="3" head.fill="solid" />
+									</chord>
+									<chord dur="8" stem.visible="false" xml:id="e53">
+										<note pname="d" oct="4" head.fill="solid" />
+									</chord>
+									<chord dur="4" stem.visible="false" xml:id="e54">
+										<note pname="g" oct="4" head.fill="solid" />
+										<note pname="b" oct="3" head.fill="solid" accid="f" />
+										<note pname="e" oct="3" head.fill="solid" accid="f" />
+									</chord>
+								</layer>
+							</staff>
+							<dir place="above" startid="#e48">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationQuarter" />
+							</dir>
+							<dir place="above" startid="#e49">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationQuarter" />
+							</dir>
+							<dir place="above" startid="#e50">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationQuarter" />
+							</dir>
+							<dir place="above" startid="#e51">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationQuarter" />
+							</dir>
+							<dir place="above" startid="#e52">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationQuarter" />
+							</dir>
+							<dir place="above" startid="#e53">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationQuarter" />
+							</dir>
+							<dir place="above" startid="#e54">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationHalf" />
+							</dir>
+							<staff xml:id="s1gib19e" n="2">
+								<layer xml:id="lwsm5ol" n="1">
+									<beam xml:id="b1wa5yrf">
+										<tabGrp xml:id="tm5gzjs" dur="8">
+											<tabDurSym xml:id="tn91wct" />
+											<note xml:id="n150b2iz" tab.course="1" tab.fret="2" />
+											<note xml:id="n1u8djxj" tab.course="3" tab.fret="0" />
+											<note xml:id="n19j77z2" tab.course="5" tab.fret="2" />
+										</tabGrp>
+										<tabGrp xml:id="t1uhbdw9" dur="8">
+											<tabDurSym xml:id="tzvz1h2" />
+											<note xml:id="n7olng6" tab.course="4" tab.fret="2" />
+											<note xml:id="nkdmnrg" tab.course="5" tab.fret="0" />
+										</tabGrp>
+									</beam>
+									<beam xml:id="b9k8h76">
+										<tabGrp xml:id="te41ttc" dur="8">
+											<tabDurSym xml:id="t102lhya" />
+											<note xml:id="n1fuq8fq" tab.course="3" tab.fret="0" />
+											<note xml:id="n1ude4h2" tab.course="4" tab.fret="0" />
+										</tabGrp>
+										<tabGrp xml:id="tiu5v1h" dur="8">
+											<tabDurSym xml:id="t1opnywh" />
+											<note xml:id="n1yjlju0" tab.course="1" tab.fret="0" />
+										</tabGrp>
+									</beam>
+									<beam xml:id="bly6jmw">
+										<tabGrp xml:id="t1bhcyf4" dur="8">
+											<tabDurSym xml:id="txugjzx" />
+											<note xml:id="nujo43" tab.course="2" tab.fret="3" />
+											<note xml:id="nbxr23g" tab.course="3" tab.fret="3" />
+											<note xml:id="n1pjirzj" tab.course="4" tab.fret="0" />
+										</tabGrp>
+										<tabGrp xml:id="tuvp6ge" dur="8">
+											<tabDurSym xml:id="t12nvmf8" />
+											<note xml:id="n1rihek6" tab.course="2" tab.fret="0" />
+										</tabGrp>
+									</beam>
+									<tabGrp xml:id="t17vog4j" dur="4">
+										<tabDurSym xml:id="tsrhrzf" />
+										<note xml:id="n1hgrr2r" tab.course="1" tab.fret="0" />
+										<note xml:id="n5c3uqm" tab.course="3" tab.fret="1" />
+										<note xml:id="n1uyt3bd" tab.course="5" tab.fret="3" />
+									</tabGrp>
+								</layer>
+							</staff>
+						</measure>
+						<measure xml:id="m195gm3p" n="12">
+							<staff n="1">
+								<layer n="1">
+									<chord dur="4" stem.visible="false" xml:id="e55">
+										<note pname="a" oct="3" head.fill="solid" />
+										<note pname="f" oct="3" head.fill="solid" />
+									</chord>
+									<chord dur="4" stem.visible="false" xml:id="e56">
+										<note pname="f" oct="4" head.fill="solid" />
+										<note pname="a" oct="3" head.fill="solid" />
+										<note pname="d" oct="3" head.fill="solid" />
+									</chord>
+									<chord dur="4" stem.visible="false" xml:id="e57">
+										<note pname="c" oct="4" head.fill="solid" />
+										<note pname="g" oct="3" head.fill="solid" />
+										<note pname="c" oct="3" head.fill="solid" />
+									</chord>
+									<chord dur="4" stem.visible="false" xml:id="e58">
+										<note pname="e" oct="4" head.fill="solid" />
+									</chord>
+								</layer>
+							</staff>
+							<dir place="above" startid="#e55">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationHalf" />
+							</dir>
+							<dir place="above" startid="#e56">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationHalf" />
+							</dir>
+							<dir place="above" startid="#e57">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationHalf" />
+							</dir>
+							<dir place="above" startid="#e58">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationHalf" />
+							</dir>
+							<staff xml:id="s3l5ewn" n="2">
+								<layer xml:id="l18sqh4k" n="1">
+									<tabGrp xml:id="t15falgk" dur="4">
+										<tabDurSym xml:id="t1mb6xzj" />
+										<note xml:id="n3bge6l" tab.course="3" tab.fret="0" />
+										<note xml:id="npooirp" tab.course="4" tab.fret="0" />
+									</tabGrp>
+									<tabGrp xml:id="tijn9wy" dur="4">
+										<tabDurSym xml:id="t1bfuzqf" />
+										<note xml:id="n1epbm7i" tab.course="2" tab.fret="3" />
+										<note xml:id="n1wyfmdl" tab.course="3" tab.fret="0" />
+										<note xml:id="n1ybr1nv" tab.course="5" tab.fret="2" />
+									</tabGrp>
+									<tabGrp xml:id="t1avlzjd" dur="4">
+										<tabDurSym xml:id="t9514hd" />
+										<note xml:id="n2aycq8" tab.course="3" tab.fret="3" />
+										<note xml:id="n7h1ojt" tab.course="4" tab.fret="2" />
+										<note xml:id="n1j311li" tab.course="5" tab.fret="0" />
+									</tabGrp>
+									<tabGrp xml:id="t2kcwyq" dur="4">
+										<tabDurSym xml:id="txxq8et" />
+										<note xml:id="n1j4243n" tab.course="2" tab.fret="2" />
+									</tabGrp>
+								</layer>
+							</staff>
+						</measure>
+						<measure xml:id="m18rk4vn" n="13">
+							<staff n="1">
+								<layer n="1">
+									<chord dur="4" stem.visible="false" xml:id="e59">
+										<note pname="f" oct="4" head.fill="solid" />
+										<note pname="a" oct="3" head.fill="solid" />
+										<note pname="f" oct="3" head.fill="solid" />
+									</chord>
+									<chord dur="4" stem.visible="false" xml:id="e60">
+										<note pname="c" oct="4" head.fill="solid" />
+									</chord>
+									<chord dur="4" stem.visible="false" xml:id="e61">
+										<note pname="c" oct="4" head.fill="solid" />
+									</chord>
+									<chord dur="4" stem.visible="false" xml:id="e62">
+										<note pname="c" oct="4" head.fill="solid" />
+									</chord>
+								</layer>
+							</staff>
+							<dir place="above" startid="#e59">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationHalf" />
+							</dir>
+							<dir place="above" startid="#e60">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationHalf" />
+							</dir>
+							<dir place="above" startid="#e61">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationHalf" />
+							</dir>
+							<dir place="above" startid="#e62">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationHalf" />
+							</dir>
+							<staff xml:id="s1qlui4k" n="2">
+								<layer xml:id="ltijj5r" n="1">
+									<tabGrp xml:id="t1xyx8dh" dur="4">
+										<tabDurSym xml:id="typ3hxu" />
+										<note xml:id="n1ugbssr" tab.course="2" tab.fret="3" />
+										<note xml:id="n1rpva61" tab.course="3" tab.fret="0" />
+										<note xml:id="n1tf7kh9" tab.course="4" tab.fret="0" />
+									</tabGrp>
+									<tabGrp xml:id="td7y26m" dur="4">
+										<tabDurSym xml:id="t34l3jd" />
+										<note xml:id="n1cdgft8" tab.course="3" tab.fret="3" />
+									</tabGrp>
+									<tabGrp xml:id="t1skqfhx" dur="4">
+										<tabDurSym xml:id="t8nk4m1" />
+										<note xml:id="n14lqwzm" tab.course="3" tab.fret="3" />
+									</tabGrp>
+									<tabGrp xml:id="t1xbtluu" dur="4">
+										<tabDurSym xml:id="thpzzhy" />
+										<note xml:id="nl2r6q0" tab.course="3" tab.fret="3" />
+									</tabGrp>
+								</layer>
+							</staff>
+						</measure>
+						<measure xml:id="m1u4dx4b" n="14">
+							<staff n="1">
+								<layer n="1">
+									<chord dur="4" stem.visible="false" xml:id="e63">
+										<note pname="a" oct="4" head.fill="solid" />
+										<note pname="d" oct="4" head.fill="solid" />
+										<note pname="d" oct="3" head.fill="solid" />
+									</chord>
+									<chord dur="4" stem.visible="false" xml:id="e64">
+										<note pname="a" oct="4" head.fill="solid" />
+										<note pname="f" oct="4" head.fill="solid" />
+										<note pname="c" oct="4" head.fill="solid" />
+										<note pname="f" oct="3" head.fill="solid" />
+									</chord>
+									<chord dur="4" stem.visible="false" xml:id="e65">
+										<note pname="g" oct="4" head.fill="solid" />
+										<note pname="d" oct="4" head.fill="solid" />
+										<note pname="b" oct="3" head.fill="solid" accid="f" />
+										<note pname="g" oct="3" head.fill="solid" />
+									</chord>
+									<chord dur="8" stem.visible="false" xml:id="e66">
+										<note pname="a" oct="4" head.fill="solid" />
+										<note pname="f" oct="4" head.fill="solid" />
+										<note pname="c" oct="4" head.fill="solid" />
+										<note pname="f" oct="3" head.fill="solid" />
+									</chord>
+									<chord dur="8" stem.visible="false" xml:id="e67">
+										<note pname="e" oct="4" head.fill="solid" />
+									</chord>
+								</layer>
+							</staff>
+							<dir place="above" startid="#e63">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationHalf" />
+							</dir>
+							<dir place="above" startid="#e64">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationHalf" />
+							</dir>
+							<dir place="above" startid="#e65">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationHalf" />
+							</dir>
+							<dir place="above" startid="#e66">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationQuarter" />
+							</dir>
+							<dir place="above" startid="#e67">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationQuarter" />
+							</dir>
+							<staff xml:id="s1n5jajd" n="2">
+								<layer xml:id="lomsi58" n="1">
+									<tabGrp xml:id="timqzk1" dur="4">
+										<tabDurSym xml:id="tniejmm" />
+										<note xml:id="n13jzawa" tab.course="1" tab.fret="2" />
+										<note xml:id="nojd4pg" tab.course="2" tab.fret="0" />
+										<note xml:id="nfncjsy" tab.course="5" tab.fret="2" />
+									</tabGrp>
+									<tabGrp xml:id="t1hla2xa" dur="4">
+										<tabDurSym xml:id="tfxhy66" />
+										<note xml:id="nyv7qc5" tab.course="1" tab.fret="2" />
+										<note xml:id="nb9rih1" tab.course="2" tab.fret="3" />
+										<note xml:id="n1dbivjb" tab.course="3" tab.fret="3" />
+										<note xml:id="n164kxnw" tab.course="4" tab.fret="0" />
+									</tabGrp>
+									<tabGrp xml:id="tu0t5pv" dur="4">
+										<tabDurSym xml:id="t158bcf" />
+										<note xml:id="nn6wamd" tab.course="1" tab.fret="0" />
+										<note xml:id="nrpxyaa" tab.course="2" tab.fret="0" />
+										<note xml:id="n1ltwy0w" tab.course="3" tab.fret="1" />
+										<note xml:id="ni1wbn9" tab.course="4" tab.fret="2" />
+									</tabGrp>
+									<beam xml:id="b1cnas9v">
+										<tabGrp xml:id="tmyed64" dur="8">
+											<tabDurSym xml:id="t41xk8p" />
+											<note xml:id="nskoolq" tab.course="1" tab.fret="2" />
+											<note xml:id="nyyvufi" tab.course="2" tab.fret="3" />
+											<note xml:id="ns91bk0" tab.course="3" tab.fret="3" />
+											<note xml:id="n1y2465" tab.course="4" tab.fret="0" />
+										</tabGrp>
+										<tabGrp xml:id="twxhxuv" dur="8">
+											<tabDurSym xml:id="td0lydo" />
+											<note xml:id="n1g7lcyh" tab.course="2" tab.fret="2" />
+										</tabGrp>
+									</beam>
+								</layer>
+							</staff>
+						</measure>
+						<measure xml:id="m11u1j7l" n="15">
+							<staff n="1">
+								<layer n="1">
+									<chord dur="8" stem.visible="false" xml:id="e68">
+										<note pname="d" oct="4" head.fill="solid" />
+									</chord>
+									<chord dur="8" stem.visible="false" xml:id="e69">
+										<note pname="c" oct="4" head.fill="solid" />
+									</chord>
+									<chord dur="4" stem.visible="false" xml:id="e70">
+										<note pname="g" oct="4" head.fill="solid" />
+										<note pname="c" oct="4" head.fill="solid" />
+										<note pname="e" oct="3" head.fill="solid" />
+									</chord>
+									<chord dur="4" stem.visible="false" xml:id="e71">
+										<note pname="f" oct="4" head.fill="solid" />
+										<note pname="f" oct="3" head.fill="solid" />
+										<note pname="d" oct="3" head.fill="solid" />
+									</chord>
+									<chord dur="4" stem.visible="false" xml:id="e72">
+										<note pname="b" oct="3" head.fill="solid" />
+									</chord>
+								</layer>
+							</staff>
+							<dir place="above" startid="#e68">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationQuarter" />
+							</dir>
+							<dir place="above" startid="#e69">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationQuarter" />
+							</dir>
+							<dir place="above" startid="#e70">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationHalf" />
+							</dir>
+							<dir place="above" startid="#e71">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationHalf" />
+							</dir>
+							<dir place="above" startid="#e72">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationHalf" />
+							</dir>
+							<staff xml:id="sw9n1k3" n="2">
+								<layer xml:id="l1rwd8p0" n="1">
+									<beam xml:id="bcy3ut6">
+										<tabGrp xml:id="t1gi01sm" dur="8">
+											<tabDurSym xml:id="tf7jtrb" />
+											<note xml:id="n1mx72i6" tab.course="2" tab.fret="0" />
+										</tabGrp>
+										<tabGrp xml:id="t334lct" dur="8">
+											<tabDurSym xml:id="t1b8i7lp" />
+											<note xml:id="nemc071" tab.course="3" tab.fret="3" />
+										</tabGrp>
+									</beam>
+									<tabGrp xml:id="t1k7jww6" dur="4">
+										<tabDurSym xml:id="tcvwxot" />
+										<note xml:id="n4x9hyj" tab.course="1" tab.fret="0" />
+										<note xml:id="n1pqkj28" tab.course="3" tab.fret="3" />
+										<note xml:id="nfii9vr" tab.course="5" tab.fret="4" />
+									</tabGrp>
+									<tabGrp xml:id="t14pfev5" dur="4">
+										<tabDurSym xml:id="t1g8ki6g" />
+										<note xml:id="ntm8e5p" tab.course="2" tab.fret="3" />
+										<note xml:id="ny31l8z" tab.course="4" tab.fret="0" />
+										<note xml:id="nt8yaa1" tab.course="5" tab.fret="2" />
+									</tabGrp>
+									<tabGrp xml:id="tn14fnk" dur="4">
+										<tabDurSym xml:id="tly2tvi" />
+										<note xml:id="n7coz0c" tab.course="3" tab.fret="2" />
+									</tabGrp>
+								</layer>
+							</staff>
+						</measure>
+						<measure xml:id="m626gtk" n="16">
+							<staff n="1">
+								<layer n="1">
+									<chord dur="4" stem.visible="false" xml:id="e73">
+										<note pname="e" oct="4" head.fill="solid" />
+										<note pname="c" oct="4" head.fill="solid" />
+										<note pname="c" oct="3" head.fill="solid" />
+									</chord>
+									<chord dur="4" stem.visible="false" xml:id="e74">
+										<note pname="c" oct="4" head.fill="solid" />
+										<note pname="a" oct="2" head.fill="solid" />
+									</chord>
+									<chord dur="4" stem.visible="false" xml:id="e75">
+										<note pname="b" oct="3" head.fill="solid" accid="f" />
+										<note pname="g" oct="2" head.fill="solid" />
+									</chord>
+									<chord dur="4" stem.visible="false" xml:id="e76">
+										<note pname="c" oct="5" head.fill="solid" />
+										<note pname="a" oct="3" head.fill="solid" />
+										<note pname="f" oct="3" head.fill="solid" />
+									</chord>
+								</layer>
+							</staff>
+							<dir place="above" startid="#e73">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationHalf" />
+							</dir>
+							<dir place="above" startid="#e74">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationHalf" />
+							</dir>
+							<dir place="above" startid="#e75">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationHalf" />
+							</dir>
+							<dir place="above" startid="#e76">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationHalf" />
+							</dir>
+							<staff xml:id="scjj9xu" n="2">
+								<layer xml:id="l1dn7oml" n="1">
+									<tabGrp xml:id="tlbea1d" dur="4">
+										<tabDurSym xml:id="tgkz2d2" />
+										<note xml:id="ncg8f3w" tab.course="2" tab.fret="2" />
+										<note xml:id="n10uag4o" tab.course="3" tab.fret="3" />
+										<note xml:id="nu461d7" tab.course="5" tab.fret="0" />
+									</tabGrp>
+									<tabGrp xml:id="t10o55gw" dur="4">
+										<tabDurSym xml:id="t2n86nr" />
+										<note xml:id="nhdlqnl" tab.course="3" tab.fret="3" />
+										<note xml:id="n1nbmzbd" tab.course="6" tab.fret="2" />
+									</tabGrp>
+									<tabGrp xml:id="t10qjzxj" dur="4">
+										<tabDurSym xml:id="t1wcuvtx" />
+										<note xml:id="n1j279z3" tab.course="3" tab.fret="1" />
+										<note xml:id="n12ruor8" tab.course="6" tab.fret="0" />
+									</tabGrp>
+									<tabGrp xml:id="tbu6wqy" dur="4">
+										<tabDurSym xml:id="t1oirgqv" />
+										<note xml:id="n1ueaft7" tab.course="1" tab.fret="5" />
+										<note xml:id="n2xjovt" tab.course="3" tab.fret="0" />
+										<note xml:id="n809h70" tab.course="4" tab.fret="0" />
+									</tabGrp>
+								</layer>
+							</staff>
+						</measure>
+						<measure xml:id="m11i3tzw" n="17">
+							<staff n="1">
+								<layer n="1">
+									<chord dur="4" stem.visible="false" xml:id="e77">
+										<note pname="b" oct="4" head.fill="solid" accid="f" />
+										<note pname="d" oct="4" head.fill="solid" />
+										<note pname="f" oct="3" head.fill="solid" />
+										<note pname="b" oct="2" head.fill="solid" accid="f" />
+									</chord>
+									<chord dur="4" stem.visible="false" xml:id="e78">
+										<note pname="a" oct="4" head.fill="solid" />
+										<note pname="c" oct="4" head.fill="solid" />
+										<note pname="f" oct="3" head.fill="solid" />
+									</chord>
+									<chord dur="8" stem.visible="false" xml:id="e79">
+										<note pname="a" oct="4" head.fill="solid" />
+									</chord>
+									<chord dur="8" stem.visible="false" xml:id="e80">
+										<note pname="g" oct="2" head.fill="solid" />
+									</chord>
+									<chord dur="8" stem.visible="false" xml:id="e81">
+										<note pname="g" oct="4" head.fill="solid" />
+										<note pname="b" oct="2" head.fill="solid" accid="n" />
+									</chord>
+									<chord dur="8" stem.visible="false" xml:id="e82">
+										<note pname="f" oct="4" head.fill="solid" />
+										<note pname="b" oct="2" head.fill="solid" accid="f" />
+									</chord>
+									<chord dur="8" stem.visible="false" xml:id="e83">
+										<note pname="e" oct="4" head.fill="solid" />
+										<note pname="c" oct="4" head.fill="solid" />
+										<note pname="c" oct="3" head.fill="solid" />
+									</chord>
+									<chord dur="8" stem.visible="false" xml:id="e84">
+										<note pname="f" oct="4" head.fill="solid" />
+									</chord>
+									<chord dur="8" stem.visible="false" xml:id="e85">
+										<note pname="g" oct="4" head.fill="solid" />
+										<note pname="d" oct="4" head.fill="solid" />
+										<note pname="b" oct="3" head.fill="solid" accid="f" />
+										<note pname="g" oct="2" head.fill="solid" />
+									</chord>
+									<chord dur="8" stem.visible="false" xml:id="e86">
+										<note pname="a" oct="2" head.fill="solid" />
+									</chord>
+								</layer>
+							</staff>
+							<dir place="above" startid="#e77">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationHalf" />
+							</dir>
+							<dir place="above" startid="#e78">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationHalf" />
+							</dir>
+							<dir place="above" startid="#e79">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationQuarter" />
+							</dir>
+							<dir place="above" startid="#e80">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationQuarter" />
+							</dir>
+							<dir place="above" startid="#e81">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationQuarter" />
+							</dir>
+							<dir place="above" startid="#e82">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationQuarter" />
+							</dir>
+							<dir place="above" startid="#e83">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationQuarter" />
+							</dir>
+							<dir place="above" startid="#e84">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationQuarter" />
+							</dir>
+							<dir place="above" startid="#e85">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationQuarter" />
+							</dir>
+							<dir place="above" startid="#e86">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationQuarter" />
+							</dir>
+							<staff xml:id="s1vx1nyj" n="2">
+								<layer xml:id="ltbz5je" n="1">
+									<tabGrp xml:id="t4sfk7d" dur="4">
+										<tabDurSym xml:id="t1kpoqjo" />
+										<note xml:id="nr4ifcn" tab.course="1" tab.fret="3" />
+										<note xml:id="n1x5epha" tab.course="2" tab.fret="0" />
+										<note xml:id="nzk6nv4" tab.course="4" tab.fret="0" />
+										<note xml:id="nidb0f7" tab.course="6" tab.fret="3" />
+									</tabGrp>
+									<tabGrp xml:id="t1lgg2ov" dur="4">
+										<tabDurSym xml:id="t1l44b4q" />
+										<note xml:id="n1tckauo" tab.course="1" tab.fret="2" />
+										<note xml:id="n1qlxwvx" tab.course="3" tab.fret="3" />
+										<note xml:id="n1as7tbc" tab.course="4" tab.fret="0" />
+									</tabGrp>
+									<beam xml:id="bnqgkip">
+										<tabGrp xml:id="t1eb2gtn" dur="8">
+											<tabDurSym xml:id="t14xow5x" />
+											<note xml:id="n1w47oad" tab.course="1" tab.fret="2" />
+										</tabGrp>
+										<tabGrp xml:id="t44iqhh" dur="8">
+											<tabDurSym xml:id="t1comyru" />
+											<note xml:id="nh745tb" tab.course="6" tab.fret="0" />
+										</tabGrp>
+									</beam>
+									<beam xml:id="bgzk64y">
+										<tabGrp xml:id="t1kokn2d" dur="8">
+											<tabDurSym xml:id="talr2q4" />
+											<note xml:id="n5c4h6q" tab.course="1" tab.fret="0" />
+											<note xml:id="nw902n6" tab.course="6" tab.fret="4" />
+										</tabGrp>
+										<tabGrp xml:id="t1wuv5oa" dur="8">
+											<tabDurSym xml:id="t1z11nqh" />
+											<note xml:id="ngfxn1z" tab.course="2" tab.fret="3" />
+											<note xml:id="n1wcorii" tab.course="6" tab.fret="3" />
+										</tabGrp>
+									</beam>
+									<beam xml:id="b16crhun">
+										<tabGrp xml:id="t17zrngf" dur="8">
+											<tabDurSym xml:id="t1x75owb" />
+											<note xml:id="njcptp4" tab.course="2" tab.fret="2" />
+											<note xml:id="n1mtl4yu" tab.course="3" tab.fret="3" />
+											<note xml:id="n4jjukp" tab.course="5" tab.fret="0" />
+										</tabGrp>
+										<tabGrp xml:id="tdg7caf" dur="8">
+											<tabDurSym xml:id="t16430hq" />
+											<note xml:id="n361iio" tab.course="2" tab.fret="3" />
+										</tabGrp>
+									</beam>
+									<beam xml:id="b17jb8at">
+										<tabGrp xml:id="t162xglu" dur="8">
+											<tabDurSym xml:id="tklveki" />
+											<note xml:id="nuk5f71" tab.course="1" tab.fret="0" />
+											<note xml:id="nx5p34g" tab.course="2" tab.fret="0" />
+											<note xml:id="n1r5a1xe" tab.course="3" tab.fret="1" />
+											<note xml:id="n1269dd8" tab.course="6" tab.fret="0" />
+										</tabGrp>
+										<tabGrp xml:id="t1mmzxwp" dur="8">
+											<tabDurSym xml:id="t1a3wo9a" />
+											<note xml:id="n1x1vske" tab.course="6" tab.fret="2" />
+										</tabGrp>
+									</beam>
+								</layer>
+							</staff>
+						</measure>
+						<measure xml:id="m72bg9v" n="18">
+							<staff n="1">
+								<layer n="1">
+									<chord dur="8" stem.visible="false" xml:id="e87">
+										<note pname="b" oct="2" head.fill="solid" accid="f" />
+									</chord>
+									<chord dur="8" stem.visible="false" xml:id="e88">
+										<note pname="a" oct="3" head.fill="solid" />
+										<note pname="c" oct="3" head.fill="solid" />
+									</chord>
+									<chord dur="8" stem.visible="false" xml:id="e89">
+										<note pname="d" oct="4" head.fill="solid" />
+										<note pname="a" oct="3" head.fill="solid" />
+										<note pname="d" oct="3" head.fill="solid" />
+									</chord>
+									<chord dur="8" stem.visible="false" xml:id="e90">
+										<note pname="g" oct="3" head.fill="solid" />
+										<note pname="c" oct="3" head.fill="solid" />
+									</chord>
+									<chord dur="8" stem.visible="false" xml:id="e91">
+										<note pname="c" oct="4" head.fill="solid" />
+										<note pname="f" oct="3" head.fill="solid" />
+									</chord>
+									<chord dur="8" stem.visible="false" xml:id="e92">
+										<note pname="g" oct="4" head.fill="solid" />
+									</chord>
+									<chord dur="4" stem.visible="false" xml:id="e93">
+										<note pname="f" oct="4" head.fill="solid" />
+										<note pname="b" oct="3" head.fill="solid" accid="f" />
+										<note pname="b" oct="2" head.fill="solid" />
+									</chord>
+									<chord dur="4" stem.visible="false" xml:id="e94">
+										<note pname="c" oct="4" head.fill="solid" />
+										<note pname="g" oct="3" head.fill="solid" />
+										<note pname="c" oct="3" head.fill="solid" />
+									</chord>
+									<chord dur="4" stem.visible="false" xml:id="e95">
+										<note pname="e" oct="4" head.fill="solid" />
+									</chord>
+								</layer>
+							</staff>
+							<dir place="above" startid="#e87">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationQuarter" />
+							</dir>
+							<dir place="above" startid="#e88">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationQuarter" />
+							</dir>
+							<dir place="above" startid="#e89">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationQuarter" />
+							</dir>
+							<dir place="above" startid="#e90">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationQuarter" />
+							</dir>
+							<dir place="above" startid="#e91">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationQuarter" />
+							</dir>
+							<dir place="above" startid="#e92">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationQuarter" />
+							</dir>
+							<dir place="above" startid="#e93">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationHalf" />
+							</dir>
+							<dir place="above" startid="#e94">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationHalf" />
+							</dir>
+							<dir place="above" startid="#e95">
+								<symbol glyph.auth="smufl" glyph.name="luteDurationHalf" />
+							</dir>
+							<staff xml:id="s1n8apkk" n="2">
+								<layer xml:id="lrnw1ls" n="1">
+									<beam xml:id="b1rg8u7z">
+										<tabGrp xml:id="t75der6" dur="8">
+											<tabDurSym xml:id="tbpwfo1" />
+											<note xml:id="n1b09473" tab.course="6" tab.fret="3" />
+										</tabGrp>
+										<tabGrp xml:id="t3cu4mi" dur="8">
+											<tabDurSym xml:id="t1l0qud1" />
+											<note xml:id="nz7qdi7" tab.course="3" tab.fret="0" />
+											<note xml:id="n1g4m1cd" tab.course="5" tab.fret="0" />
+										</tabGrp>
+									</beam>
+									<beam xml:id="bcjop1u">
+										<tabGrp xml:id="tz1ktep" dur="8">
+											<tabDurSym xml:id="tg2eki1" />
+											<note xml:id="n1ksyhqu" tab.course="2" tab.fret="0" />
+											<note xml:id="n1ddxohd" tab.course="3" tab.fret="0" />
+											<note xml:id="nyi7jof" tab.course="5" tab.fret="2" />
+										</tabGrp>
+										<tabGrp xml:id="tb2x99m" dur="8">
+											<tabDurSym xml:id="t1benbgp" />
+											<note xml:id="ntb6k5" tab.course="4" tab.fret="2" />
+											<note xml:id="n1khsc07" tab.course="5" tab.fret="0" />
+										</tabGrp>
+									</beam>
+									<beam xml:id="b1ee7vfn">
+										<tabGrp xml:id="t1jj0f58" dur="8">
+											<tabDurSym xml:id="t1dtcbyl" />
+											<note xml:id="n1vu5766" tab.course="3" tab.fret="3" />
+											<note xml:id="n1bvi9jp" tab.course="4" tab.fret="0" />
+										</tabGrp>
+										<tabGrp xml:id="tpf2ey5" dur="8">
+											<tabDurSym xml:id="tsy92qo" />
+											<note xml:id="n8hxlm" tab.course="1" tab.fret="0" />
+										</tabGrp>
+									</beam>
+									<tabGrp xml:id="t1yhea7d" dur="4">
+										<tabDurSym xml:id="te43mtp" />
+										<note xml:id="njtv1k6" tab.course="2" tab.fret="3" />
+										<note xml:id="nhxm9zo" tab.course="3" tab.fret="1" />
+										<note xml:id="n800tt2" tab.course="6" tab.fret="3" />
+									</tabGrp>
+									<tabGrp xml:id="t1btv0t1" dur="4">
+										<tabDurSym xml:id="t1gyh75s" />
+										<note xml:id="n1b5qzf1" tab.course="3" tab.fret="3" />
+										<note xml:id="n14jynw8" tab.course="4" tab.fret="2" />
+										<note xml:id="nlafx5x" tab.course="5" tab.fret="0" />
+									</tabGrp>
+									<tabGrp xml:id="t18e20tm" dur="4">
+										<tabDurSym xml:id="tucmm37" />
+										<note xml:id="n1is7m8" tab.course="2" tab.fret="2" />
+									</tabGrp>
+								</layer>
+							</staff>
+						</measure>
+						<measure xml:id="mbva0xx" right="end" n="19">
+							<staff n="1">
+								<layer n="1">
+									<chord dur="4" stem.visible="false" xml:id="e96">
+										<note pname="f" oct="4" head.fill="solid" />
+										<note pname="c" oct="4" head.fill="solid" />
+										<note pname="a" oct="3" head.fill="solid" />
+										<note pname="f" oct="3" head.fill="solid" />
+									</chord>
+								</layer>
+							</staff>
+							<staff xml:id="sewxb5i" n="2">
+								<layer xml:id="lzpeaof" n="1">
+									<tabGrp xml:id="id1" dur="4">
+										<note xml:id="n1jfttpa" tab.course="2" tab.fret="3" />
+										<note xml:id="nqsrc3h" tab.course="3" tab.fret="3" />
+										<note xml:id="n19mmj6l" tab.course="4" tab.fret="4" />
+										<note xml:id="n148qetv" tab.course="5" tab.fret="5" />
+									</tabGrp>
+								</layer>
+							</staff>
+							<fermata xml:id="fifc9ut" startid="#id1" />
+						</measure>
+					</section>
+				</score>
+			</mdiv>
+		</body>
+	</music>
+</mei>
