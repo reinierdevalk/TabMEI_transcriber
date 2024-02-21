@@ -1,0 +1,1315 @@
+<?xml version="1.0" standalone="no"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
+    <meiHead>
+        <fileDesc>
+            <titleStmt>
+                <title>1. Preamble 1</title>
+                <composer>Julius Bischoff</composer>
+            </titleStmt>
+            <pubStmt />
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application isodate="2024-01-29" version="1.4.7">
+                    <name>luteconv</name>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <workList>
+            <work>
+                <title>1. Preamble 1</title>
+                <composer>Julius Bischoff</composer>
+            </work>
+        </workList>
+    </meiHead>
+    <music>
+        <body>
+            <mdiv n="1">
+                <score>
+                    <scoreDef>
+                        <staffGrp>
+                            <staffDef n="1" lines="6" notationtype="tab.lute.french">
+                                <tuning>
+                                    <course n="1" pname="g" oct="4" />
+                                    <course n="2" pname="d" oct="4" />
+                                    <course n="3" pname="a" oct="3" />
+                                    <course n="4" pname="f" oct="3" />
+                                    <course n="5" pname="c" oct="3" />
+                                    <course n="6" pname="g" oct="2" />
+                                </tuning>
+                                <meterSig sym="cut" count="2" unit="2" />
+                            </staffDef>
+                        </staffGrp>
+                    </scoreDef>
+                    <section n="1">
+                        <measure n="1">
+                            <staff n="1">
+                                <layer n="1">
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="2" tab.fret="0" />
+                                        <note tab.course="3" tab.fret="1" />
+                                        <note tab.course="6" tab.fret="0" />
+                                    </tabGrp>
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="0" />
+                                            <note tab.course="3" tab.fret="1" />
+                                            <note tab.course="6" tab.fret="0" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="6" tab.fret="2" />
+                                        </tabGrp>
+                                    </beam>
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="0" />
+                                            <note tab.course="3" tab.fret="1" />
+                                            <note tab.course="6" tab.fret="3" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="5" tab.fret="0" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="0" />
+                                            <note tab.course="4" tab.fret="0" />
+                                            <note tab.course="5" tab.fret="2" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="5" tab.fret="3" />
+                                        </tabGrp>
+                                    </beam>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="2">
+                            <staff n="1">
+                                <layer n="1">
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="2" tab.fret="0" />
+                                        <note tab.course="3" tab.fret="0" />
+                                        <note tab.course="4" tab.fret="0" />
+                                    </tabGrp>
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="2" tab.fret="0" />
+                                        <note tab.course="3" tab.fret="1" />
+                                        <note tab.course="4" tab.fret="2" />
+                                    </tabGrp>
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="3" tab.fret="0" />
+                                        <note tab.course="4" tab.fret="0" />
+                                        <note tab.course="5" tab.fret="2" />
+                                    </tabGrp>
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="2" tab.fret="0" />
+                                        <note tab.course="3" tab.fret="0" />
+                                        <note tab.course="4" tab.fret="0" />
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="3">
+                            <staff n="1">
+                                <layer n="1">
+                                    <beam>
+                                        <tabGrp dur="16">
+                                            <tabDurSym />
+                                            <note tab.course="5" tab.fret="3" />
+                                        </tabGrp>
+                                        <tabGrp dur="16">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="0" />
+                                        </tabGrp>
+                                        <tabGrp dur="16">
+                                            <tabDurSym />
+                                            <note tab.course="3" tab.fret="3" />
+                                        </tabGrp>
+                                        <tabGrp dur="16">
+                                            <tabDurSym />
+                                            <note tab.course="3" tab.fret="1" />
+                                        </tabGrp>
+                                    </beam>
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="0" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="3" tab.fret="3" />
+                                        </tabGrp>
+                                    </beam>
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="1" tab.fret="2" />
+                                        <note tab.course="3" tab.fret="0" />
+                                        <note tab.course="5" tab.fret="2" />
+                                    </tabGrp>
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="1" tab.fret="2" />
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="4">
+                            <staff n="1">
+                                <layer n="1">
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="2" />
+                                            <note tab.course="3" tab.fret="0" />
+                                            <note tab.course="5" tab.fret="2" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="0" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="3" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="1" />
+                                        </tabGrp>
+                                    </beam>
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="0" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="3" tab.fret="3" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="3" tab.fret="1" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="3" tab.fret="0" />
+                                        </tabGrp>
+                                    </beam>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="5">
+                            <staff n="1">
+                                <layer n="1">
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="1" tab.fret="2" />
+                                        <note tab.course="3" tab.fret="3" />
+                                        <note tab.course="4" tab.fret="0" />
+                                    </tabGrp>
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="1" tab.fret="3" />
+                                        <note tab.course="2" tab.fret="0" />
+                                        <note tab.course="4" tab.fret="2" />
+                                    </tabGrp>
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="3" tab.fret="3" />
+                                            <note tab.course="4" tab.fret="0" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="2" />
+                                        </tabGrp>
+                                    </beam>
+                                    <beam>
+                                        <tabGrp dur="16">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="3" />
+                                        </tabGrp>
+                                        <tabGrp dur="16">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="2" />
+                                        </tabGrp>
+                                        <tabGrp dur="16">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="0" />
+                                        </tabGrp>
+                                        <tabGrp dur="16">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="2" />
+                                        </tabGrp>
+                                    </beam>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="6">
+                            <staff n="1">
+                                <layer n="1">
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="1" tab.fret="3" />
+                                        <note tab.course="2" tab.fret="0" />
+                                        <note tab.course="6" tab.fret="3" />
+                                    </tabGrp>
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="3" tab.fret="1" />
+                                            <note tab.course="5" tab.fret="2" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="3" tab.fret="0" />
+                                            <note tab.course="5" tab.fret="0" />
+                                        </tabGrp>
+                                    </beam>
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="3" tab.fret="1" />
+                                            <note tab.course="5" tab.fret="2" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="4" tab.fret="2" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="3" tab.fret="1" />
+                                            <note tab.course="5" tab.fret="2" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="3" tab.fret="0" />
+                                            <note tab.course="5" tab.fret="0" />
+                                        </tabGrp>
+                                    </beam>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="7">
+                            <staff n="1">
+                                <layer n="1">
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="0" />
+                                            <note tab.course="3" tab.fret="1" />
+                                            <note tab.course="4" tab.fret="0" />
+                                            <note tab.course="6" tab.fret="3" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="3" tab.fret="0" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="3" tab.fret="1" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="3" tab.fret="3" />
+                                        </tabGrp>
+                                    </beam>
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="0" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="2" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="3" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="0" />
+                                        </tabGrp>
+                                    </beam>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="8">
+                            <staff n="1">
+                                <layer n="1">
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="2" />
+                                            <note tab.course="3" tab.fret="3" />
+                                            <note tab.course="4" tab.fret="0" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="3" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="5" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="3" />
+                                        </tabGrp>
+                                    </beam>
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="2" />
+                                            <note tab.course="3" tab.fret="3" />
+                                            <note tab.course="4" tab.fret="0" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="0" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="3" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="1" />
+                                        </tabGrp>
+                                    </beam>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="9">
+                            <staff n="1">
+                                <layer n="1">
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="0" />
+                                            <note tab.course="3" tab.fret="1" />
+                                            <note tab.course="6" tab.fret="3" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="3" tab.fret="3" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="3" tab.fret="1" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="3" tab.fret="0" />
+                                        </tabGrp>
+                                    </beam>
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="0" />
+                                            <note tab.course="3" tab.fret="3" />
+                                            <note tab.course="5" tab.fret="0" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="3" tab.fret="1" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="3" tab.fret="0" />
+                                            <note tab.course="5" tab.fret="0" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="4" tab.fret="2" />
+                                        </tabGrp>
+                                    </beam>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="10">
+                            <staff n="1">
+                                <layer n="1">
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="3" tab.fret="0" />
+                                            <note tab.course="5" tab.fret="2" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="4" />
+                                        </tabGrp>
+                                    </beam>
+                                    <beam>
+                                        <tabGrp dur="16">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="0" />
+                                        </tabGrp>
+                                        <tabGrp dur="16">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="4" />
+                                        </tabGrp>
+                                        <tabGrp dur="16">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="2" />
+                                        </tabGrp>
+                                        <tabGrp dur="16">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="4" />
+                                        </tabGrp>
+                                    </beam>
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="0" />
+                                            <note tab.course="4" tab.fret="2" />
+                                            <note tab.course="6" tab.fret="0" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="3" tab.fret="0" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="3" tab.fret="1" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="3" tab.fret="3" />
+                                        </tabGrp>
+                                    </beam>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="11">
+                            <staff n="1">
+                                <layer n="1">
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="0" />
+                                            <note tab.course="3" tab.fret="1" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="3" tab.fret="3" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="0" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="3" tab.fret="1" />
+                                        </tabGrp>
+                                    </beam>
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="2" tab.fret="3" />
+                                        <note tab.course="3" tab.fret="0" />
+                                    </tabGrp>
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="1" tab.fret="3" />
+                                        <note tab.course="2" tab.fret="0" />
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="12">
+                            <staff n="1">
+                                <layer n="1">
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="1" tab.fret="2" />
+                                        <note tab.course="3" tab.fret="3" />
+                                    </tabGrp>
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="2" tab.fret="3" />
+                                        <note tab.course="3" tab.fret="0" />
+                                    </tabGrp>
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="1" tab.fret="0" />
+                                        <note tab.course="3" tab.fret="1" />
+                                    </tabGrp>
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="1" tab.fret="2" />
+                                        <note tab.course="3" tab.fret="3" />
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="13">
+                            <staff n="1">
+                                <layer n="1">
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="1" tab.fret="3" />
+                                        <note tab.course="2" tab.fret="0" />
+                                    </tabGrp>
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="2" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="0" />
+                                        </tabGrp>
+                                    </beam>
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="1" tab.fret="2" />
+                                        <note tab.course="3" tab.fret="3" />
+                                    </tabGrp>
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="1" tab.fret="0" />
+                                        <note tab.course="3" tab.fret="1" />
+                                        <note tab.course="6" tab.fret="0" />
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="14">
+                            <staff n="1">
+                                <layer n="1">
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="0" />
+                                            <note tab.course="3" tab.fret="0" />
+                                            <note tab.course="5" tab.fret="2" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="4" />
+                                        </tabGrp>
+                                    </beam>
+                                    <beam>
+                                        <tabGrp dur="16">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="0" />
+                                        </tabGrp>
+                                        <tabGrp dur="16">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="4" />
+                                        </tabGrp>
+                                        <tabGrp dur="16">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="2" />
+                                        </tabGrp>
+                                        <tabGrp dur="16">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="4" />
+                                        </tabGrp>
+                                    </beam>
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="1" tab.fret="0" />
+                                        <note tab.course="4" tab.fret="2" />
+                                        <note tab.course="5" tab.fret="3" />
+                                    </tabGrp>
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="3" tab.fret="1" />
+                                        <note tab.course="5" tab.fret="2" />
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="15">
+                            <staff n="1">
+                                <layer n="1">
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="3" tab.fret="0" />
+                                        <note tab.course="5" tab.fret="0" />
+                                    </tabGrp>
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="4" tab.fret="2" />
+                                        <note tab.course="6" tab.fret="3" />
+                                    </tabGrp>
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="4" tab.fret="0" />
+                                        <note tab.course="6" tab.fret="2" />
+                                    </tabGrp>
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="1" tab.fret="3" />
+                                        <note tab.course="2" tab.fret="0" />
+                                        <note tab.course="6" tab.fret="0" />
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="16">
+                            <staff n="1">
+                                <layer n="1">
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="1" tab.fret="2" />
+                                        <note tab.course="3" tab.fret="3" />
+                                    </tabGrp>
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="1" tab.fret="0" />
+                                        <note tab.course="3" tab.fret="1" />
+                                        <note tab.course="6" tab.fret="0" />
+                                    </tabGrp>
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="0" />
+                                            <note tab.course="3" tab.fret="0" />
+                                            <note tab.course="5" tab.fret="2" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="4" />
+                                        </tabGrp>
+                                    </beam>
+                                    <beam>
+                                        <tabGrp dur="16">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="0" />
+                                        </tabGrp>
+                                        <tabGrp dur="16">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="4" />
+                                        </tabGrp>
+                                        <tabGrp dur="16">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="2" />
+                                        </tabGrp>
+                                        <tabGrp dur="16">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="4" />
+                                        </tabGrp>
+                                    </beam>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="17">
+                            <staff n="1">
+                                <layer n="1">
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="0" />
+                                            <note tab.course="4" tab.fret="2" />
+                                            <note tab.course="6" tab.fret="0" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="3" />
+                                        </tabGrp>
+                                    </beam>
+                                    <beam>
+                                        <tabGrp dur="16">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="3" />
+                                            <note tab.course="4" tab.fret="2" />
+                                            <note tab.course="6" tab.fret="0" />
+                                        </tabGrp>
+                                        <tabGrp dur="16">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="2" />
+                                        </tabGrp>
+                                        <tabGrp dur="16">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="0" />
+                                        </tabGrp>
+                                        <tabGrp dur="16">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="3" />
+                                        </tabGrp>
+                                    </beam>
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="2" tab.fret="2" />
+                                        <note tab.course="3" tab.fret="3" />
+                                        <note tab.course="4" tab.fret="4" />
+                                    </tabGrp>
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="1" tab.fret="2" />
+                                        <note tab.course="3" tab.fret="3" />
+                                        <note tab.course="4" tab.fret="0" />
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="18">
+                            <staff n="1">
+                                <layer n="1">
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="0" />
+                                            <note tab.course="4" tab.fret="2" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="2" />
+                                        </tabGrp>
+                                    </beam>
+                                    <beam>
+                                        <tabGrp dur="16">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="0" />
+                                        </tabGrp>
+                                        <tabGrp dur="16">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="3" />
+                                        </tabGrp>
+                                        <tabGrp dur="16">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="2" />
+                                        </tabGrp>
+                                        <tabGrp dur="16">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="0" />
+                                        </tabGrp>
+                                    </beam>
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="1" tab.fret="2" />
+                                        <note tab.course="2" tab.fret="0" />
+                                        <note tab.course="5" tab.fret="2" />
+                                    </tabGrp>
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="2" tab.fret="0" />
+                                        <note tab.course="3" tab.fret="0" />
+                                        <note tab.course="4" tab.fret="0" />
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="19">
+                            <staff n="1">
+                                <layer n="1">
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="5" tab.fret="4" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="0" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="3" tab.fret="4" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="3" tab.fret="2" />
+                                        </tabGrp>
+                                    </beam>
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="2" tab.fret="0" />
+                                        <note tab.course="3" tab.fret="0" />
+                                        <note tab.course="5" tab.fret="2" />
+                                    </tabGrp>
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="1" tab.fret="7" />
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="20">
+                            <staff n="1">
+                                <layer n="1">
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="7" />
+                                            <note tab.course="3" tab.fret="0" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="6" />
+                                        </tabGrp>
+                                    </beam>
+                                    <beam>
+                                        <tabGrp dur="16">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="7" />
+                                        </tabGrp>
+                                        <tabGrp dur="16">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="6" />
+                                        </tabGrp>
+                                        <tabGrp dur="16">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="4" />
+                                        </tabGrp>
+                                        <tabGrp dur="16">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="6" />
+                                        </tabGrp>
+                                    </beam>
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="1" tab.fret="7" />
+                                        <note tab.course="2" tab.fret="0" />
+                                        <note tab.course="4" tab.fret="5" />
+                                    </tabGrp>
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="4" tab.fret="5" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="5" />
+                                        </tabGrp>
+                                    </beam>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="21">
+                            <staff n="1">
+                                <layer n="1">
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="3" />
+                                            <note tab.course="2" tab.fret="0" />
+                                            <note tab.course="4" tab.fret="2" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="2" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="0" />
+                                            <note tab.course="2" tab.fret="2" />
+                                            <note tab.course="5" tab.fret="0" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="0" />
+                                        </tabGrp>
+                                    </beam>
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="5" />
+                                            <note tab.course="3" tab.fret="3" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="4" tab.fret="5" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="5" />
+                                            <note tab.course="3" tab.fret="3" />
+                                            <note tab.course="4" tab.fret="4" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="3" />
+                                        </tabGrp>
+                                    </beam>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="22">
+                            <staff n="1">
+                                <layer n="1">
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="1" tab.fret="2" />
+                                        <note tab.course="2" tab.fret="3" />
+                                        <note tab.course="4" tab.fret="0" />
+                                    </tabGrp>
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="0" />
+                                            <note tab.course="5" tab.fret="0" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="3" />
+                                            <note tab.course="3" tab.fret="0" />
+                                        </tabGrp>
+                                    </beam>
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="2" />
+                                            <note tab.course="3" tab.fret="3" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="0" />
+                                            <note tab.course="3" tab.fret="1" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="3" />
+                                            <note tab.course="2" tab.fret="0" />
+                                            <note tab.course="4" tab.fret="2" />
+                                        </tabGrp>
+                                    </beam>
+                                    <tabGrp dur="2">
+                                        <tabDurSym />
+                                    </tabGrp>
+                                    <tabGrp dur="2">
+                                        <note tab.course="2" tab.fret="2" />
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="23">
+                            <staff n="1">
+                                <layer n="1">
+                                    <beam>
+                                        <tabGrp dur="16">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="3" />
+                                            <note tab.course="3" tab.fret="3" />
+                                            <note tab.course="4" tab.fret="0" />
+                                        </tabGrp>
+                                        <tabGrp dur="16">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="3" />
+                                        </tabGrp>
+                                        <tabGrp dur="16">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="2" />
+                                        </tabGrp>
+                                        <tabGrp dur="16">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="0" />
+                                        </tabGrp>
+                                    </beam>
+                                    <beam>
+                                        <tabGrp dur="16">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="3" />
+                                        </tabGrp>
+                                        <tabGrp dur="16">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="2" />
+                                        </tabGrp>
+                                        <tabGrp dur="16">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="0" />
+                                        </tabGrp>
+                                        <tabGrp dur="16">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="2" />
+                                        </tabGrp>
+                                    </beam>
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="1" tab.fret="3" />
+                                        <note tab.course="3" tab.fret="1" />
+                                        <note tab.course="6" tab.fret="3" />
+                                    </tabGrp>
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="3" tab.fret="1" />
+                                        <note tab.course="5" tab.fret="2" />
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="24">
+                            <staff n="1">
+                                <layer n="1">
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="2" tab.fret="1" />
+                                        <note tab.course="5" tab.fret="0" />
+                                    </tabGrp>
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="3" tab.fret="0" />
+                                    </tabGrp>
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="2" tab.fret="0" />
+                                        <note tab.course="3" tab.fret="1" />
+                                        <note tab.course="6" tab.fret="3" />
+                                    </tabGrp>
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="2" tab.fret="3" />
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="25">
+                            <staff n="1">
+                                <layer n="1">
+                                    <tabGrp dur="8">
+                                        <tabDurSym />
+                                        <note tab.course="2" tab.fret="3" />
+                                        <note tab.course="4" tab.fret="2" />
+                                        <note tab.course="5" tab.fret="0" />
+                                    </tabGrp>
+                                    <beam>
+                                        <tabGrp dur="16">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="2" />
+                                        </tabGrp>
+                                        <tabGrp dur="16">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="0" />
+                                        </tabGrp>
+                                    </beam>
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="3" />
+                                            <note tab.course="4" tab.fret="2" />
+                                            <note tab.course="5" tab.fret="0" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="2" />
+                                        </tabGrp>
+                                    </beam>
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="2" tab.fret="3" />
+                                        <note tab.course="4" tab.fret="0" />
+                                        <note tab.course="5" tab.fret="2" />
+                                    </tabGrp>
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="2" tab.fret="0" />
+                                        <note tab.course="3" tab.fret="1" />
+                                        <note tab.course="6" tab.fret="3" />
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="26">
+                            <staff n="1">
+                                <layer n="1">
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="1" />
+                                            <note tab.course="5" tab.fret="0" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="0" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="3" tab.fret="3" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="1" />
+                                        </tabGrp>
+                                    </beam>
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="2" tab.fret="0" />
+                                        <note tab.course="3" tab.fret="1" />
+                                        <note tab.course="6" tab.fret="3" />
+                                    </tabGrp>
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="1" tab.fret="0" />
+                                        <note tab.course="4" tab.fret="2" />
+                                        <note tab.course="5" tab.fret="3" />
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="27">
+                            <staff n="1">
+                                <layer n="1">
+                                    <beam>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="3" tab.fret="0" />
+                                            <note tab.course="5" tab.fret="2" />
+                                        </tabGrp>
+                                        <tabGrp dur="8">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="4" />
+                                        </tabGrp>
+                                    </beam>
+                                    <beam>
+                                        <tabGrp dur="16">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="0" />
+                                        </tabGrp>
+                                        <tabGrp dur="16">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="4" />
+                                        </tabGrp>
+                                        <tabGrp dur="16">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="2" />
+                                        </tabGrp>
+                                        <tabGrp dur="16">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="4" />
+                                        </tabGrp>
+                                    </beam>
+                                    <tabGrp dur="8">
+                                        <tabDurSym />
+                                        <note tab.course="1" tab.fret="0" />
+                                        <note tab.course="2" tab.fret="0" />
+                                        <note tab.course="4" tab.fret="2" />
+                                        <note tab.course="6" tab.fret="0" />
+                                    </tabGrp>
+                                    <beam>
+                                        <tabGrp dur="16">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="3" />
+                                        </tabGrp>
+                                        <tabGrp dur="16">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="1" />
+                                        </tabGrp>
+                                    </beam>
+                                    <beam>
+                                        <tabGrp dur="16">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="0" />
+                                        </tabGrp>
+                                        <tabGrp dur="16">
+                                            <tabDurSym />
+                                            <note tab.course="3" tab.fret="3" />
+                                        </tabGrp>
+                                        <tabGrp dur="16">
+                                            <tabDurSym />
+                                            <note tab.course="3" tab.fret="1" />
+                                        </tabGrp>
+                                        <tabGrp dur="16">
+                                            <tabDurSym />
+                                            <note tab.course="3" tab.fret="0" />
+                                        </tabGrp>
+                                    </beam>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="28">
+                            <staff n="1">
+                                <layer n="1">
+                                    <beam>
+                                        <tabGrp dur="16">
+                                            <tabDurSym />
+                                            <note tab.course="6" tab.fret="0" />
+                                        </tabGrp>
+                                        <tabGrp dur="16">
+                                            <tabDurSym />
+                                            <note tab.course="3" tab.fret="0" />
+                                        </tabGrp>
+                                        <tabGrp dur="16">
+                                            <tabDurSym />
+                                            <note tab.course="3" tab.fret="1" />
+                                        </tabGrp>
+                                        <tabGrp dur="16">
+                                            <tabDurSym />
+                                            <note tab.course="3" tab.fret="3" />
+                                        </tabGrp>
+                                    </beam>
+                                    <beam>
+                                        <tabGrp dur="16">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="0" />
+                                        </tabGrp>
+                                        <tabGrp dur="16">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="2" />
+                                        </tabGrp>
+                                        <tabGrp dur="16">
+                                            <tabDurSym />
+                                            <note tab.course="2" tab.fret="3" />
+                                        </tabGrp>
+                                        <tabGrp dur="16">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="0" />
+                                        </tabGrp>
+                                    </beam>
+                                    <beam>
+                                        <tabGrp dur="16">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="2" />
+                                        </tabGrp>
+                                        <tabGrp dur="16">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="3" />
+                                        </tabGrp>
+                                        <tabGrp dur="16">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="5" />
+                                        </tabGrp>
+                                        <tabGrp dur="16">
+                                            <tabDurSym />
+                                            <note tab.course="1" tab.fret="2" />
+                                        </tabGrp>
+                                    </beam>
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="1" tab.fret="8" />
+                                        <note tab.course="4" tab.fret="7" />
+                                        <note tab.course="5" tab.fret="0" />
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="29" right="end">
+                            <staff n="1">
+                                <layer n="1">
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="1" tab.fret="0" />
+                                        <note tab.course="2" tab.fret="0" />
+                                        <note tab.course="4" tab.fret="2" />
+                                        <note tab.course="6" tab.fret="0" />
+                                    </tabGrp>
+                                    <tabGrp dur="4">
+                                        <tabDurSym />
+                                        <note tab.course="1" tab.fret="2" />
+                                    </tabGrp>
+                                    <tabGrp dur="2" xml:id="id0">
+                                        <note tab.course="1" tab.fret="4" />
+                                        <note tab.course="2" tab.fret="0" />
+                                        <note tab.course="4" tab.fret="2" />
+                                        <note tab.course="6" tab.fret="0" />
+                                    </tabGrp>
+                                </layer>
+                            </staff>
+                            <fermata startid="#id0" />
+                        </measure>
+                    </section>
+                </score>
+            </mdiv>
+        </body>
+    </music>
+</mei>

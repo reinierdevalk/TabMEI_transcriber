@@ -19,17 +19,7 @@
                     <scoreDef>
                         <staffGrp>
                             <staffDef n='1' lines='5' notationtype='tab.lute.french' tab.dur.sym.ratio='1'>
-                                <!--
                                 <tuning tuning.standard='lute.renaissance.6'/>
-                                -->
-                                <tuning>
-                                    <course n="1" pname="g" oct="4" />
-                                    <course n="2" pname="d" oct="4" />
-                                    <course n="3" pname="a" oct="3" />
-                                    <course n="4" pname="f" oct="3" />
-                                    <course n="5" pname="c" oct="3" />
-                                    <course n="6" pname="g" oct="2" />
-                                </tuning>
                             </staffDef>
                         </staffGrp>
                     </scoreDef>
@@ -38,13 +28,17 @@
                             <staff n='1'>
                                 <layer n='1'>
 
-<tabGrp dur='2'>
+<tabGrp dur='4'>
     <tabDurSym />
     <note tab.course='1' tab.fret='0' />
     <note tab.course='2' tab.fret='0' />
     <note tab.course='3' tab.fret='1' />
     <note tab.course='4' tab.fret='2' />
     <note tab.course='6' tab.fret='0' />
+</tabGrp>
+<tabGrp dur='4'>
+    <tabDurSym />
+    <note tab.course='3' tab.fret='2' />
 </tabGrp>
 
                                 </layer>
